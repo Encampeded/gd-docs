@@ -16,6 +16,8 @@ Gets the leaderboard scores.
 
 **gdw** - 0
 
+**udid** - The player's user ID / UDID
+
 **accountID** - The account ID of the user viewing the leaderboards
 
 **gjp2** - The user's [GJP2](/topics/encryption/gjp.md)
@@ -29,6 +31,8 @@ Gets the leaderboard scores.
 ## Response
 
 Returns a list of [user objects](/resources/server/user.md) in order based on which leaderboard you're viewing, separated by pipe `|` characters.
+
+Note that for unknown reasons, omitting the UDID parameter will make creator leaderboards replace the user `azuhb` (user ID `166153445`) with the user you have selected via accountID. If accountID is also missing, uses the green user doshik5595 (user ID `150933385`) instead.
 
 ## Example
 
