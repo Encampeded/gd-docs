@@ -24,6 +24,8 @@ Gets the leaderboard scores.
 
 **count** - Returns the amount of players specified. Limited to 100
 
+**stat** - The type of leaderboard requested. `0` for Star, `1` for Moon, `2` for User Coin, `3` for Demon
+
 ## Response
 
 Returns a list of [user objects](/resources/server/user.md) in order based on which leaderboard you're viewing, separated by pipe `|` characters.
