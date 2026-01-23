@@ -23,7 +23,7 @@ import requests
 
 data = {}
 
-req = requests.post("http://boomlings.com/database/getCustomContentURL.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getCustomContentURL.php", data=data)
 print(req.text)
 ```
 
