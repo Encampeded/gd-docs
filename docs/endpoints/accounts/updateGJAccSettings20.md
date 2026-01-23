@@ -28,7 +28,7 @@ Updates a user's account settings
 
 **instagram** - The user's Instagram username
 
-**tiktok** -The user's TikTok handle
+**tiktok** - The user's TikTok handle
 
 **discord** - The user's Discord handle
 
