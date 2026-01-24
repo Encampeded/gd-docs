@@ -4,7 +4,7 @@ import { withSidebar } from 'vitepress-sidebar';
 // https://vitepress.dev/reference/site-config
 export default defineConfig(withSidebar({
   srcDir: "docs",
-  
+
   title: "GD Docs",
   description: "Documentation for Geometry Dash",
   themeConfig: {
