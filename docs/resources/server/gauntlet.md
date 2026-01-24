@@ -98,4 +98,4 @@ Note: Bolded gauntlet names are the ones that are added in-game, and the rest ar
 ### Trivia
 
 - Gauntlets use the same response parser as [MapPacks](/resources/server/mappack) but they do not share the full range of features mappacks have
-- The **Spike Gauntlet** used to be improperly capitalized in 2.1 as `spike` gauntlet
+- The **Spike Gauntlet** used to be improperly capitalized in 2.1 as **spike Gauntlet**
