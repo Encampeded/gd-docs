@@ -163,6 +163,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0176 | Click On Steps |
 | gv_0177 | Click Between Steps |
 | gv_0179 | Hitbox on Death |
+| gv_0180 | Quick Disable Link Controls (editor) (the gray link button) |
 | gv_0181 | Static Trace Arrows (editor) |
 
 # Unlocked Game Variables
