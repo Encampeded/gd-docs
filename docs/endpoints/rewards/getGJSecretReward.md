@@ -1,6 +1,6 @@
 # getGJRewards.php
 
-Gets the rewards from the wraith vault depending on the entered code, which can be found in the tower select level screen at the bottom right.
+Gets the rewards from the Secret Room ("Wraith") vault depending on the entered code, which can be found in the tower select level screen at the bottom right.
 
 ## Parameters
 
