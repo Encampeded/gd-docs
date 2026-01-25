@@ -1,10 +1,14 @@
 export default [
   {
-    "text": "Endpoints List",
+    "text": "Endpoints",
     "items": [
       {
         "text": "Sending Requests",
         "link": "/endpoints/generic"
+      },
+      {
+        "text": "List of Endpoints",
+        "link": "/endpoints/"
       },
       {
         "text": "Accounts",

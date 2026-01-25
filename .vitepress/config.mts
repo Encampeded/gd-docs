@@ -26,8 +26,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: "/assets/logo.png",
     nav: [
-      { text: 'Home', link: '/' },
-      { text: "Endpoints", link: "/endpoints" }
+      { text: 'Home', link: '/' }
     ],
 
     socialLinks: [
