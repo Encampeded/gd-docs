@@ -1,5 +1,5 @@
 <center>
-	<img src="/public/logotext.png" height="500" width="500" alt="logo">
+	<img src="/logotext.png" height="500" width="500" alt="logo">
 </center>
 
 # Introduction
