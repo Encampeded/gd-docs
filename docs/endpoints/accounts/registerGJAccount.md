@@ -1,8 +1,9 @@
 # registerGJAccount.php
 
-> This endpoint is used to register an account
+This endpoint is used to register an account. In 2.2, this was replaced with [register.php](/topics/account_management.md).
 
-**Note:** This page is under the `database/accounts` directory.
+> [!NOTE]
+> This page is under the `database/accounts` directory.
 
 ## Parameters
 
@@ -31,5 +32,7 @@
 | -4 | Username is longer than 20 characters |
 | -5 | Invalid Password |
 | -6 | Invalid Email |
-| -8 | Password to short |
-| -9 | Username to short |
+| -7 | Password confirmation does not match (only used internally, not sent by servers) |
+| -8 | Password too short (under 6 characters) |
+| -9 | Username too short (under 3 characters) |
+| -99 | Email confirmation does not match (only used internally, not sent by servers) |

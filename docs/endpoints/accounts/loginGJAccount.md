@@ -1,8 +1,9 @@
 # loginGJAccount.php
 
-> This endpoint is used to log into a players Geometry Dash account.
+This endpoint is used to log into a players Geometry Dash account.
 
-**Note:** This page is under the `database/accounts` directory.
+> [!NOTE]
+> This page is under the `database/accounts` directory.
 
 ## Parameters
 
@@ -33,6 +34,7 @@ If the request was not successful, there are 7 different error codes that can be
 | `-1`       | Generic Error                                                                                             |
 | `-8`       | If the user's password is less than 6 characters long                                                     |
 | `-9`       | If the user's Username is less than 3 characters long                                                     |
+| `-10`      | User account ID does not match the currently logged in ID (only used internally, not sent by servers) |
 | `-11`      | If the user's login credentials are incorrect                                                             |
 | `-12`      | If the user's account is disabled                                                                         |
 | `-13`      | If the account the user is trying to log into has a different steam ID to to that account **(Unused)** |
