@@ -1,6 +1,6 @@
 # requestUserAccess.php
 
-Requests moderator access
+Requests moderator access.
 
 ## Parameters
 
@@ -22,7 +22,7 @@ Requests moderator access
 
 ## Response
 
-1 if granted Moderator, 2 if granted Elder Moderator, -1 if not granted
+1 if granted Moderator, 2 if granted Elder Moderator, 99 if granted Leaderboard Moderator, and -1 if not granted
 
 ## Example
 
