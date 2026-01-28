@@ -6,7 +6,7 @@ Downloads a user level and info so it can be played.
 
 ### Required Parameters
 
-**levelID** - The ID of the level to download. Use -1 for the daily level and -2 for the weekly.
+**levelID** - The ID of the level to download. Use -1 for the daily level, -2 for the weekly and -3 for the event level.
 
 **secret** - Wmfd2893gb7
 
@@ -14,9 +14,9 @@ Downloads a user level and info so it can be played.
 
 **gameVersion** - 22
 
-**binaryVersion** - 42
+**binaryVersion** - 47
 
-**gdw** - 0
+**dvs** - 3
 
 **accountID** - The account ID of the user who is downloading the level
 
@@ -38,11 +38,14 @@ Downloads a user level and info so it can be played.
 
 Returns a [level object](/resources/server/level.md) along with 2 hashes. All of this is separated by `#`. If binary version is 42 or higher, returns data in the following format:
 ```
-{level}#{hash1}#{hash2}
+{level}#{hash1}#{hash2}#{user}#{songs}#
 ```
 where:
 - `{level}` is the level object
 - `{hash1}` and `{hash2}` are integrity [hashes](/resources/server/hashes.md#downloadgjlevel) the GD client uses to validate the response
+- `{user}` is the user that uploaded the level, in the format `userID:username:accountID` - only returned when requesting level ID `-1` (daily), `-2` (weekly) or `-3` (event)
+- `{songs}` is the list of song objects that the level uses
+The last 2 segments are only returned when `binaryVersion` >= 42, else it's just `{level}#{hash1}#{hash2}`
 
 ## Example
 
