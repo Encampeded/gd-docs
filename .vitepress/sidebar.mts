@@ -152,7 +152,7 @@ export default [
             "link": "/endpoints/lists/getGJLevelLists"
           },
           {
-            "text": "uploadGJLevel21.php",
+            "text": "uploadGJLevelList.php",
             "link": "/endpoints/lists/uploadGJLevelList"
           }
         ],
