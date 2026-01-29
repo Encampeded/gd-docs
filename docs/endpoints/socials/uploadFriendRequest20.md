@@ -9,6 +9,7 @@
 | `gameVersion`   | The Game Version the player is playing on. 22 for 2.2              | `True`   |
 | `binaryVersion` | The current build the player playing on. 42 for 2.206              | `True`   |
 | `gdw`           | If the player is using Geometry Dash World                         | `True`   |
+| `comment`       | The message sent along with the friend request                     | `True`   |
 | `accountID`     | The player's account ID                                            | `False`  |
 | `toAccountID`   | The account which the player is trying to send a friend request to | `False`  |
 | `gjp2`          | The player's [GJP2](/topics/gjp.md)                     | `False`  |
