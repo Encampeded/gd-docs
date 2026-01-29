@@ -43,10 +43,10 @@ Modded client for iOS which includes 30+ mods
 An extension to the GD editor with many Quality of life enhancements
 
 - **[g.js](https://g-js-api.github.io/G.js/) by [bestgamer08](https://github.com/RealSput)**  
-An extension to the GD editor with many Quality of life enhancements
+Create Geometry Dash levels (with a SPWN-like syntax) in JavaScript
 
 - **[Nedit](https://github.com/Boris-Filin/NeditGD) by [Nemo](https://github.com/Boris-Filin)**  
-An extension to the GD editor with many Quality of life enhancements
+Lightweight Geometry Dash level scripting tool 
 
 
 ### Historic Links
