@@ -42,6 +42,13 @@ Modded client for iOS which includes 30+ mods
 - **[BetterEdit](https://github.com/HJfod/BetterEdit) by [HJFod](https://github.com/HJfod/)**  
 An extension to the GD editor with many Quality of life enhancements
 
+- **[g.js](https://g-js-api.github.io/G.js/) by [bestgamer08](https://github.com/RealSput)**  
+An extension to the GD editor with many Quality of life enhancements
+
+- **[Nedit](https://github.com/Boris-Filin/NeditGD) by [Nemo](https://github.com/Boris-Filin)**  
+An extension to the GD editor with many Quality of life enhancements
+
+
 ### Historic Links
 
 - **[SPWN Language](https://github.com/Spu7Nix/SPWN-language) by [Spu7nix](https://github.com/Spu7Nix)**  
