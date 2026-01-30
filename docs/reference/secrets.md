@@ -22,58 +22,66 @@ There are 4 *publicly* known secrets:
 
 ### Common Secret
 
-> There are <u>44</u> endpoints on the server which use the `Common Secret`. Below is a table of all known endpoints which use the Common Secret.
-
+> There are <u>47</u> endpoints on the server which use the `Common Secret`. Below is a table of all known endpoints which use the Common Secret.
 <details close>
 <summary><u>Endpoints</u></summary>
 
-| <center>Endpoint</center>                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------- |
-| [https://www.boomlings.com/database/**getAccountURL**.php](/#/endpoints/account/getAccountURL)                      |
-| [https://www.boomlings.com/database/**acceptGJFriendRequest20**.php](/#/endpoints/social/acceptGJFriendRequest20)   |
-| [https://www.boomlings.com/database/**blockGJUser20**.php](/#/endpoints/social/blockGJUser20)                       |
-| [https://www.boomlings.com/database/**deleteGJAccComment20**.php](/#/endpoints/comment/deleteGJAccComment20)        |
-| [https://www.boomlings.com/database/**deleteGJComment20**.php](/#/endpoints/comment/deleteGJComment20)              |
-| [https://www.boomlings.com/database/**deleteGJFriendRequests20**.php](/#/endpoints/social/deleteGJFriendRequests20) |
-| [https://www.boomlings.com/database/**deleteGJMessages20**.php](/#/endpoints/social/deleteGJMessages20)             |
-| [https://www.boomlings.com/database/**downloadGJLevel22**.php](/#/endpoints/level/downloadGJLevel22)                |
-| [https://www.boomlings.com/database/**downloadGJMessage20**.php](/#/endpoints/social/downloadGJMessage20)           |
-| [https://www.boomlings.com/database/**getGJAccountComments20**.php](/#/endpoints/comment/getGJAccountComments20)    |
-| [https://www.boomlings.com/database/**getGJChallenges**.php](/#/endpoints/misc/getGJChallenges)                     |
-| [https://www.boomlings.com/database/**getGJCommentHistory**.php](/#/endpoints/comment/getGJCommentHistory)          |
-| [https://www.boomlings.com/database/**getGJComments21**.php](/#/endpoints/comment/getGJComments21)                  |
-| [https://www.boomlings.com/database/**getGJDailyLevel**.php](/#/endpoints/level/getGJDailyLevel)                    |
-| [https://www.boomlings.com/database/**getGJFriendRequests20**.php](/#/endpoints/social/getGJFriendRequests20)       |
-| [https://www.boomlings.com/database/**getGJGauntlets21**.php](/#/endpoints/level/getGJGauntlets21)                  |
-| [https://www.boomlings.com/database/**getGJLevelLists**.php](/#/endpoints/social/getGJLevelLists)                   |
-| [https://www.boomlings.com/database/**getGJLevelScores211**.php](/#/endpoints/level/getGJLevelScores211)            |
-| [https://www.boomlings.com/database/**getGJLevelScoresPlat**.php](/#/endpoints/level/getGJLevelScoresPlat)          |
-| [https://www.boomlings.com/database/**getGJLevels21**.php](/#/endpoints/level/getGJLevels21)                        |
-| [https://www.boomlings.com/database/**getGJMapPacks21**.php](/#/endpoints/level/getGJMapPacks21)                    |
-| [https://www.boomlings.com/database/**getGJMessages20**.php](/#/endpoints/social/getGJMessages20)                   |
-| [https://www.boomlings.com/database/**getGJRewards**.php](/#/endpoints/misc/getGJRewards)                           |
-| [https://www.boomlings.com/database/**getGJScores20**.php](/#/endpoints/account/getGJScores20)                      |
-| [https://www.boomlings.com/database/**getGJSongInfo**.php](/#/endpoints/level/getGJSongInfo)                        |
-| [https://www.boomlings.com/database/**getGJTopArtists**.php](/#/endpoints/misc/getGJTopArtists)                     |
-| [https://www.boomlings.com/database/**getGJUserList20**.php](/#/endpoints/social/getGJUserList20)                   |
-| [https://www.boomlings.com/database/**getGJUsers20**.php](/#/endpoints/account/getGJUsers20)                        |
-| [https://www.boomlings.com/database/**getSaveData**.php](/#/endpoints/misc/getSaveData)                             |
-| [https://www.boomlings.com/database/**likeGJItem211**.php](/#/endpoints/misc/likeGJItem211)                         |
-| [https://www.boomlings.com/database/**rateGJStars211**.php](/#/endpoints/level/rateGJStars211)                      |
-| [https://www.boomlings.com/database/**readGJFriendRequest20**.php](/#/endpoints/social/readGJFriendRequest20)       |
-| [https://www.boomlings.com/database/**removeGJFriend20**.php](/#/endpoints/social/removeGJFriend20)                 |
-| [https://www.boomlings.com/database/**reportGJLevel**.php](/#/endpoints/level/reportGJLevel)                        |
-| [https://www.boomlings.com/database/**requestUserAccess**.php](/#/endpoints/misc/requestUserAccess)                 |
-| [https://www.boomlings.com/database/**restoreGJItems**.php](/#/endpoints/account/restoreGJItems)                    |
-| [https://www.boomlings.com/database/**unblockGJUser20**.php](/#/endpoints/social/unblockGJUser20)                   |
-| [https://www.boomlings.com/database/**updateGJDesc20**.php](/#/endpoints/level/updateGJDesc20)                      |
-| [https://www.boomlings.com/database/**updateGJUserScore22**.php](/#/endpoints/account/updateGJUserScore22)          |
-| [https://www.boomlings.com/database/**uploadFriendRequest20**.php](/#/endpoints/social/uploadFriendRequest20)       |
-| [https://www.boomlings.com/database/**uploadGJAccComment20**.php](/#/endpoints/comment/uploadGJAccComment20)        |
-| [https://www.boomlings.com/database/**uploadGJComment21**.php](/#/endpoints/comment/uploadGJComment21)              |
-| [https://www.boomlings.com/database/**uploadGJLevel21**.php](/#/endpoints/level/uploadGJLevel21)                    |
-| [https://www.boomlings.com/database/**uploadGJLevelList**.php](/#/endpoints/social/uploadGJLevelList)               |
-| [https://www.boomlings.com/database/**uploadGJMessage20**.php](/#/endpoints/social/uploadGJMessage20)               |
+| <center>Endpoints</center>                                                                                           | Endpoint Type |
+| -------------------------------------------------------------------------------------------------------------------- | ------------- |
+| [https://www.boomlings.com/database/***deleteGJAccComment20***.php](/endpoints/comments/deleteGJAccComment20)        | Comments      |
+| [https://www.boomlings.com/database/***deleteGJComment20***.php](/endpoints/comments/deleteGJComment20)              | Comments      |
+| [https://www.boomlings.com/database/***getGJAccountComments20***.php](/endpoints/comments/getGJAccountComments20)    | Comments      |
+| [https://www.boomlings.com/database/***getGJCommentHistory***.php](/endpoints/comments/getGJCommentHistory)          | Comments      |
+| [https://www.boomlings.com/database/***getGJComments21***.php](/endpoints/comments/getGJComments21)                  | Comments      |
+| [https://www.boomlings.com/database/***uploadGJAccComment20***.php](/endpoints/comments/uploadGJAccComment20)        | Comments      |
+| [https://www.boomlings.com/database/***uploadGJComment21***.php](/endpoints/comments/uploadGJComment21)              | Comments      |
+| &ZeroWidthSpace;                                                                                                     |               |
+| [https://www.boomlings.com/database/***downloadGJLevel22***.php](/endpoints/levels/downloadGJLevel22)                | Levels        |
+| [https://www.boomlings.com/database/***getGJDailyLevel***.php](/endpoints/levels/getGJDailyLevel)                    | Levels        |
+| [https://www.boomlings.com/database/***getGJGauntlets21***.php](/endpoints/levels/getGJGauntlets21)                  | Levels        |
+| [https://www.boomlings.com/database/***getGJLevelScores211***.php](/endpoints/levels/getGJLevelScores211)            | Levels        |
+| [https://www.boomlings.com/database/***getGJLevelScoresPlat***.php](/endpoints/levels/getGJLevelScoresPlat)          | Levels        |
+| [https://www.boomlings.com/database/***getGJLevels21***.php](/endpoints/levels/getGJLevels21)                        | Levels        |
+| [https://www.boomlings.com/database/***getGJMapPacks21***.php](/endpoints/levels/getGJMapPacks21)                    | Levels        |
+| [https://www.boomlings.com/database/***rateGJStars211***.php](/endpoints/levels/rateGJStars211)                      | Levels        |
+| [https://www.boomlings.com/database/***reportGJLevel***.php](/endpoints/levels/reportGJLevel)                        | Levels        |
+| [https://www.boomlings.com/database/***updateGJDesc20***.php](/endpoints/levels/updateGJDesc20)                      | Levels        |
+| [https://www.boomlings.com/database/***uploadGJLevel21***.php](/endpoints/levels/uploadGJLevel21)                    | Levels        |
+| &ZeroWidthSpace;                                                                                                     |               |
+| [https://www.boomlings.com/database/***getGJLevelLists***.php](/endpoints/lists/getGJLevelLists)                     | Lists         |
+| [https://www.boomlings.com/database/***uploadGJLevelList***.php](/endpoints/lists/uploadGJLevelList)                 | Lists         |
+| &ZeroWidthSpace;                                                                                                     |               |
+| [https://www.boomlings.com/database/***getAccountURL***.php](/endpoints/misc/getAccountURL)                          | Misc          |
+| [https://www.boomlings.com/database/***getSaveData***.php](/endpoints/misc/getSaveData)                              | Misc          |
+| [https://www.boomlings.com/database/***likeGJItem211***.php](/endpoints/misc/likeGJItem211)                          | Misc          |
+| [https://www.boomlings.com/database/***requestUserAccess***.php](/endpoints/misc/requestUserAccess)                  | Misc          |
+| [https://www.boomlings.com/database/***restoreGJItems***.php](/endpoints/misc/restoreGJItems)                        | Misc          |
+| &ZeroWidthSpace;                                                                                                     |               |
+| [https://www.boomlings.com/database/***getGJChallenges***.php](/endpoints/rewards/getGJChallenges)                   | Rewards       |
+| [https://www.boomlings.com/database/***getGJRewards***.php](/endpoints/rewards/getGJRewards)                         | Rewards       |
+| [https://www.boomlings.com/database/***getGJSecretReward***.php](/endpoints/rewards/getGJSecretReward)               | Rewards       |
+| &ZeroWidthSpace;                                                                                                     |               |
+| [https://www.boomlings.com/database/***acceptGJFriendRequest20***.php](/endpoints/socials/acceptGJFriendRequest20)   | Socials       |
+| [https://www.boomlings.com/database/***blockGJUser20***.php](/endpoints/socials/blockGJUser20)                       | Socials       |
+| [https://www.boomlings.com/database/***deleteGJFriendRequests20***.php](/endpoints/socials/deleteGJFriendRequests20) | Socials       |
+| [https://www.boomlings.com/database/***deleteGJMessages20***.php](/endpoints/socials/deleteGJMessages20)             | Socials       |
+| [https://www.boomlings.com/database/***downloadGJMessage20***.php](/endpoints/socials/downloadGJMessage20)           | Socials       |
+| [https://www.boomlings.com/database/***getGJFriendRequests20***.php](/endpoints/socials/getGJFriendRequests20)       | Socials       |
+| [https://www.boomlings.com/database/***getGJMessages20***.php](/endpoints/socials/getGJMessages20)                   | Socials       |
+| [https://www.boomlings.com/database/***getGJUserList20***.php](/endpoints/socials/getGJUserList20)                   | Socials       |
+| [https://www.boomlings.com/database/***readGJFriendRequest20***.php](/endpoints/socials/readGJFriendRequest20)       | Socials       |
+| [https://www.boomlings.com/database/***removeGJFriend20***.php](/endpoints/socials/removeGJFriend20)                 | Socials       |
+| [https://www.boomlings.com/database/***unblockGJUser20***.php](/endpoints/socials/unblockGJUser20)                   | Socials       |
+| [https://www.boomlings.com/database/***uploadFriendRequest20***.php](/endpoints/socials/uploadFriendRequest20)       | Socials       |
+| [https://www.boomlings.com/database/***uploadGJMessage20***.php](/endpoints/socials/uploadGJMessage20)               | Socials       |
+| &ZeroWidthSpace;                                                                                                     |               |
+| [https://www.boomlings.com/database/***getGJSongInfo***.php](/endpoints/songs/getGJSongInfo)                         | Songs         |
+| [https://www.boomlings.com/database/***getGJTopArtists***.php](/endpoints/songs/getGJTopArtists)                     | Songs         |
+| &ZeroWidthSpace;                                                                                                     |               |
+| [https://www.boomlings.com/database/***getGJScores20***.php](/endpoints/users/getGJScores20)                         | Users         |
+| [https://www.boomlings.com/database/***getGJUserInfo20***.php](/endpoints/users/getGJUserInfo20)                     | Users         |
+| [https://www.boomlings.com/database/***getGJUsers20***.php](/endpoints/users/getGJUsers20)                           | Users         |
+| [https://www.boomlings.com/database/***updateGJUserScore22***.php](/endpoints/users/updateGJUserScore22)             | Users         |
 
 </details>  
 
@@ -84,24 +92,24 @@ There are 4 *publicly* known secrets:
 <details close>
 <summary><u>Endpoints</u></summary>
 
-| <center>Endpoint</center>                                                                                       |
-| --------------------------------------------------------------------------------------------------------------- |
-| [http://www.boomlings.com/database/accounts/**registerGJAccount**.php](/#/endpoints/account/registerGJAccount)  |
-| [http://www.boomlings.com/database/accounts/**loginGJAccount**.php](/#/endpoints/account/loginGJAccount)        |
-| [http://geometrydash.com/database/accounts/**syncGJAccountNew**.php](/#/endpoints/account/syncGJAccountNew)     |
-| [http://geometrydash.com/database/accounts/**backupGJAccountNew**.php](/#/endpoints/account/backupGJAccountNew) |
-| [http://www.boomlings.com/database/**updateGJAccSettings20**.php](/#/endpoints/account/updateGJAccSettings20)   |
+| <center>Endpoint</center>                                                                                        | Endpoint Type |
+| ---------------------------------------------------------------------------------------------------------------- | ------------- |
+| [http://geometrydash.com/database/accounts/***backupGJAccountNew***.php](/endpoints/accounts/backupGJAccountNew) | Accounts      |
+| [http://www.boomlings.com/database/accounts/***loginGJAccount***.php](/endpoints/accounts/loginGJAccount)        | Accounts      |
+| [http://www.boomlings.com/database/accounts/***registerGJAccount***.php](/endpoints/accounts/registerGJAccount)  | Accounts      |
+| [http://geometrydash.com/database/accounts/***syncGJAccountNew***.php](/endpoints/accounts/syncGJAccountNew)     | Accounts      |
+| [http://www.boomlings.com/database/***updateGJAccSettings20***.php](/endpoints/accounts/updateGJAccSettings20)   | Accounts      |
 
 </details>
 
 <details close>
 <summary><u>Known Multiplayer Endpoints</u></summary>
 
-| <center>Endpoint</center>                                                                             |
-| ----------------------------------------------------------------------------------------------------- |
-| [http://www.boomlings.com/database/**exitMPLobby**.php](/#/endpoints/multiplayer/exitMPLobby)         |
-| [http://www.boomlings.com/database/**joinMPLobby**.php](/#/endpoints/multiplayer/joinMPLobby)         |
-| [http://www.boomlings.com/database/**uploadMPComment**.php](/#/endpoints/multiplayer/uploadMPComment) |
+| <center>Endpoint</center>                                                                             | Endpoint Type |
+| ----------------------------------------------------------------------------------------------------- | ------------- |
+| [http://www.boomlings.com/database/***exitMPLobby***.php](/endpoints/multiplayer/exitMPLobby)         | Multiplayer   |
+| [http://www.boomlings.com/database/***joinMPLobby***.php](/endpoints/multiplayer/joinMPLobby)         | Multiplayer   |
+| [http://www.boomlings.com/database/***uploadMPComment***.php](/endpoints/multiplayer/uploadMPComment) | Multiplayer   |
 
 </details>
 
@@ -112,25 +120,25 @@ There are 4 *publicly* known secrets:
 <details close>
 <summary><u>Endpoints</u></summary>
 
-| <center>Endpoint</center>                                                                               |
-| ------------------------------------------------------------------------------------------------------- |
-| [http://www.boomlings.com/database/**deleteGJLevelUser20**.php](/#/endpoints/level/deleteGJLevelUser20) |
-| [http://www.boomlings.com/database/**deleteGJLevelList**.php](/#/endpoints/lists/deleteGJLevelList)     |
+| <center>Endpoint</center>                                                                                | Endpoint Type |
+| -------------------------------------------------------------------------------------------------------- | ------------- |
+| [http://www.boomlings.com/database/***deleteGJLevelUser20***.php](/endpoints/levels/deleteGJLevelUser20) | Levels        |
+| &ZeroWidthSpace;                                                                                         |               |
+| [http://www.boomlings.com/database/***deleteGJLevelList***.php](/endpoints/lists/deleteGJLevelList)      | Lists         |
 
 </details>
 
 ### Moderator Secret
 
-> There are only 3 endpoints which use the `Moderator Secret`. These endpoints allow hand-picked users called moderators to send in-game levels to the server which then have a chance to earn a star rating. Below are the endpoints in question.
+> There are only 2 endpoints which use the `Moderator Secret`. These endpoints allow hand-picked users called moderators to send in-game levels to the server which then have a chance to earn a star rating. Below are the endpoints in question.
 
 <details close>
 <summary><u>Endpoints</u></summary>
 
-| <center>Endpoint</center>                                                                         |
-| ------------------------------------------------------------------------------------------------- |
-| [http://www.boomlings.com/database/**rateGJDemon21**.php](#/endpoints/level/rateGJDemon21)        |
-| [http://www.boomlings.com/database/**suggestGJStars20**.php](/#/endpoints/level/suggestGJStars20) |
-| [http://www.boomlings.com/database/**rateGJDemon21**.php](/#/endpoints/level/rateGJDemon21) |
+| <center>Endpoint</center>                                                                          | Endpoint Type |
+| -------------------------------------------------------------------------------------------------- | ------------- |
+| [http://www.boomlings.com/database/***rateGJDemon21***.php](endpoints/levels/rateGJDemon21)        | Levels        |
+| [http://www.boomlings.com/database/***suggestGJStars20***.php](/endpoints/levels/suggestGJStars20) | Levels        |
 
 </details>
 
@@ -146,7 +154,11 @@ Currently, the Admin Secret no longer works as RobTop became aware of it.
 
 <!-- todo: clean-up + explain reasoning clearer-->
 
+<!-- TODO: Put these into tables! We love tables :3 -->
+
 ## Secret Structure
+
+<!-- TODO: A more accurate description would be W|xxx|xxxx|g|x|x -->
 
 A Secret is split into 5 components and can be divided as such: `x|xxx|xxxx|xx|x`. From analysing the available secrets that we have access too, we have a general idea of what each component may represent.
 
@@ -167,9 +179,14 @@ A Secret is split into 5 components and can be divided as such: `x|xxx|xxxx|xx|x
     - `3879`
     - `2878`
 
+<!-- TODO: In the fourth component, `g` is presumably a constant due to the way it's formatted in-code: -->
+<!-- CCString::createWithFormat("%c%s%s%c%c%s", (char)'W', (char*)premissionsRequired, (char*)unkNumbers, (char)'g', (char)endpointPurpose, (char*)endpointPower) -->
+
 - The fourth component denotes the purpose of the secret.
     - `gb` is general use.
     - `gc` is specialised use - managing accounts, sending levels, deleting levels.
+
+<!-- TODO: Due to the 5th component being a char array, there's a chance that it could be longer -->
 
 - The fifth component is overall power the endpoints have:
     - `3` being able to submit data that can greatly affect in-game levels,
