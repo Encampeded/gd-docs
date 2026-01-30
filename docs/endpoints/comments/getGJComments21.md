@@ -39,7 +39,7 @@ headers = {
     "User-Agent": ""
 }
 
-url = "http://www.boomlings.com/database/getGJComments21.php"
+url = "https://www.boomlings.com/database/getGJComments21.php"
 req = requests.post(url, data=data, headers=headers)
 print(req.text)
 
@@ -52,7 +52,7 @@ print(req.text)
 
 ### **curl**
 ```plain
-curl -X POST "http://www.boomlings.com/database/getGJComments21.php" -H "User-Agent: " -d "levelID=60805571&page=0&secret=Wmfd2893gb7"
+curl -X POST "https://www.boomlings.com/database/getGJComments21.php" -H "User-Agent: " -d "levelID=60805571&page=0&secret=Wmfd2893gb7"
 ```
 
 <!-- tabs:end -->

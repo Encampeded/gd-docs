@@ -38,7 +38,7 @@ data = {
     "stars": 3
 }
 
-req = requests.post('http://boomlings.com/database/rateGJStars211.php', data=data)
+req = requests.post('https://www.boomlings.com/database/rateGJStars211.php', data=data)
 print(req.text)
 ```
 

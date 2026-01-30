@@ -85,7 +85,7 @@ headers = {
 	"User-Agent": ""
 }
 
-url = "http://www.boomlings.com/database/uploadGJLevel21.php"
+url = "https://www.boomlings.com/database/uploadGJLevel21.php"
 
 req = requests.post(url=url, data=data, headers=headers)
 print(req.text)

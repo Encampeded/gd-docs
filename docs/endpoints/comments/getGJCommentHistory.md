@@ -37,7 +37,7 @@ data = {
     "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/getGJCommentHistory.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getGJCommentHistory.php", data=data)
 print(req.text)
 ```
 

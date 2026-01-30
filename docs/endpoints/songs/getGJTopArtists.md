@@ -31,7 +31,7 @@ data = {
     "page": 1
 }
 
-req = requests.post("http://boomlings.com/database/getGJTopArtists.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getGJTopArtists.php", data=data)
 print(req.text)
 ```
 

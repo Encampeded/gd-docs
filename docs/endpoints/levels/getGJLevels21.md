@@ -159,7 +159,7 @@ data = {
     "secret": "Wmfd2893gb7",
 }
 
-url = "http://www.boomlings.com/database/getGJLevels21.php"
+url = "https://www.boomlings.com/database/getGJLevels21.php"
 
 req = requests.post(url=url, data=data, headers=headers)
 print(req.text)
@@ -168,7 +168,7 @@ print(req.text)
 ### **curl**
 
 ```plain
-curl http://www.boomlings.com/database/getGJLevels21.php -A "" -d "str=bloodbath&star=1&type=0&secret=Wmfd2893gb7"
+curl https://www.boomlings.com/database/getGJLevels21.php -A "" -d "str=bloodbath&star=1&type=0&secret=Wmfd2893gb7"
 ```
 
 <!-- tabs:end -->

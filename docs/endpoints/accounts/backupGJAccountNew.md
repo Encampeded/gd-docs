@@ -2,7 +2,11 @@
 
 Saves account data
 
-**Note:** This page is on the account server. You can find the domain name by sending a request to /database/getAccountURL.php (currently http://www.robtopgames.org) 
+> [!NOTE]
+> This page is under the `database/accounts` directory.
+
+> [!NOTE]
+> This page is on the account server. You can find the domain name by sending a request to /database/getAccountURL.php (currently https://www.robtopgames.org) 
 
 ## Parameters
 
@@ -38,7 +42,7 @@ data = {
     "secret": "Wmfv3899gc9"
 }
 
-req = requests.post("http://www.robtopgames.org/database/accounts/backupGJAccountNew.php", data=data)
+req = requests.post("https://www.robtopgames.org/database/accounts/backupGJAccountNew.php", data=data)
 print(req.text)
 ```
 

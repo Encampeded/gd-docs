@@ -36,7 +36,7 @@ data = {
     "songID": 803223
 }
 
-req = requests.post("http://boomlings.com/database/getGJSongInfo.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getGJSongInfo.php", data=data)
 print(req.text)
 ```
 

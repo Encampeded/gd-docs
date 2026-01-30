@@ -33,7 +33,7 @@ data = {
         "secret": "Wmfv2898gc9"
 }
 
-req = requests.post("http://boomlings.com/database/deleteGJLevelUser20.php", data=data)
+req = requests.post("https://www.boomlings.com/database/deleteGJLevelUser20.php", data=data)
 print(req.text)
 ```
 

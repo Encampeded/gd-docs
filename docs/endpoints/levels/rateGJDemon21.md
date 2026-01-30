@@ -43,7 +43,7 @@ data = {
     "rating": 5
 }
 
-req = requests.post('http://www.boomlings.com/database/rateGJDemon21.php', headers=headers, data=data)
+req = requests.post('https://www.boomlings.com/database/rateGJDemon21.php', headers=headers, data=data)
 print(req.text)
 ```
 
@@ -70,7 +70,7 @@ data = {
     "rating": 3
 }
 
-req = requests.post('http://www.boomlings.com/database/rateGJDemon21.php', headers=headers, data=data)
+req = requests.post('https://www.boomlings.com/database/rateGJDemon21.php', headers=headers, data=data)
 print(req.text)
 ```
 

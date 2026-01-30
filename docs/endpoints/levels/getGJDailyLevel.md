@@ -30,7 +30,7 @@ Event levels also return the reward chest data and an integrity [hash](/resource
 
 ```py
 import requests
-url = "http://www.boomlings.com/database/getGJDailyLevel.php"
+url = "https://www.boomlings.com/database/getGJDailyLevel.php"
 data = {
     "secret": "Wmfd2893gb7",
     "type": "2"
@@ -46,7 +46,7 @@ print(response.text)
 ### **curl**
 
 ```plain
-curl -X POST http://www.boomlings.com/database/getGJDailyLevel.php -d "secret=Wmfd2893gb7&type=2" -A ""
+curl -X POST https://www.boomlings.com/database/getGJDailyLevel.php -d "secret=Wmfd2893gb7&type=2" -A ""
 ```
 
 <!-- tabs:end -->
