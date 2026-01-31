@@ -6,7 +6,7 @@ Reports a level
 
 | Parameter | Explanation                                          | Required |
 | --------- | ---------------------------------------------------- | -------- |
-| `secret`  | [Common Secret]((/reference/secrets)): `Wmfd2893gb7` | Yes      |
+| `secret`  | [Common Secret](/reference/secrets): `Wmfd2893gb7` | Yes      |
 | `levelID` | The ID of the level being reported                   |          |
 
 ## Response
