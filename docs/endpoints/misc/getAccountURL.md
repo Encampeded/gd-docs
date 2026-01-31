@@ -8,10 +8,11 @@ Gets the URL for the data server.
 | ----------- | ----------------------------------------------------------------------------------------------------- | -------- |
 | `accountID` | Any valid account ID                                                                                  | Yes      |
 | `type`      | used to decide which endpoint is used after the data server is found - 1 = backup data/ 2 = sync data | Yes      |
-| `secret`    | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                                    | Yes      |
+| `secret`    | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                    | Yes      |
 
 ## Response
 
+<!-- TODO: This is no longer the case! https://www.robtopgames.org is now the only returned URL (30/Jan/2026) -->
 Usually [https://www.robtopgames.org](https://www.robtopgames.org). However, without a valid accountID and at type 2, [https://www.robtopgames.net](https://www.robtopgames.net) is returned instead
 
 ## Example
@@ -29,7 +30,7 @@ data = {
         "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/getAccountURL.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getAccountURL.php", data=data)
 print(req.text)
 ```
 

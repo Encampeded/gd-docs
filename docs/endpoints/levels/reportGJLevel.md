@@ -6,7 +6,7 @@ Reports a level
 
 | Parameter | Explanation                                          | Required |
 | --------- | ---------------------------------------------------- | -------- |
-| `secret`  | [Common Secret](/reference/secrets): `Wmfd2893gb7` | Yes      |
+| `secret`  | [Common Secret](/reference/secrets.md): `Wmfd2893gb7` | Yes      |
 | `levelID` | The ID of the level being reported                   |          |
 
 ## Response
@@ -27,7 +27,7 @@ data = {
     "secret": "Wmfd2893gb7"
 }
 
-req = requests.post('http://boomlings.com/database/reportGJLevel.php', data=data)
+req = requests.post('https://www.boomlings.com/database/reportGJLevel.php', data=data)
 print(req.text)
 ```
 

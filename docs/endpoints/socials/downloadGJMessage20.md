@@ -9,7 +9,7 @@ Download a message.
 | `accountID`     | The person's account ID                            | Yes      |
 | `gjp2`          | The person's [GJP2](/topics/gjp.md)                | Yes      |
 | `messageID`     | The ID of the message to read                      | Yes      |
-| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7` | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7` | Yes      |
 | `gameVersion`   | 22                                                 |          |
 | `binaryVersion` | 42                                                 |          |
 | `gdw`           | 0                                                  |          |
@@ -36,7 +36,7 @@ data = {
         "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/downloadGJMessage20.php", data=data)
+req = requests.post("https://www.boomlings.com/database/downloadGJMessage20.php", data=data)
 print(req.text)
 ```
 

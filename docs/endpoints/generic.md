@@ -27,6 +27,7 @@ Sending too many requests at a given time will result in you becoming rate limit
 
 However, there are some longer-term limits applied on top of that as well.
 
+<!-- This ipv6 address no longer works! -->
 ## Alternative method
 As of May 31st, 2023, an alternative method is using IPv6 to interact with the servers:
 

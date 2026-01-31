@@ -7,7 +7,7 @@ Gets the rewards from the chests.
 | Parameter       | Explanation                                                                                                   | Required |
 | --------------- | ------------------------------------------------------------------------------------------------------------- | -------- |
 | `udid`          | A unique identifier for the user's device. You can put anything here                                          | Yes      |
-| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                                            | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                            | Yes      |
 | `chk`           | [Rewards CHK](/topics/encryption/rewards_chk) using the [chest rewards](/topics/encryption/xor.html#keys) key | Yes      |
 | `gameVersion`   | 22                                                                                                            |          |
 | `binaryVersion` | 42                                                                                                            |          |
@@ -59,7 +59,7 @@ data = {
     "rewardType": 1
 }
 
-req = requests.post("http://boomlings.com/database/getGJRewards.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getGJRewards.php", data=data)
 print(req.text)
 
 decoded_text = xor_cipher(base64.urlsafe_b64decode(response_text.split("|")[0][5:].encode()).decode(), '59182')

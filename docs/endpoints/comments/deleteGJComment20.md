@@ -10,7 +10,7 @@ Deletes a level comment.
 | `gjp`           | The [GJP](/topics/gjp.md) of the user who is deleting the comment | Yes      |
 | `commentID`     | ID of the comment                                                 | Yes      |
 | `levelID`       | ID of the level the comment is on                                 | Yes      |
-| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                | Yes      |
 | `gameVersion`   | 21                                                                |          |
 | `binaryVersion` | 35                                                                |          |
 | `gdw`           | 0                                                                 |          |
@@ -38,7 +38,7 @@ data = {
         "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/deleteGJComment20.php", data=data)
+req = requests.post("https://www.boomlings.com/database/deleteGJComment20.php", data=data)
 print(req.text)
 ```
 

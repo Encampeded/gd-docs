@@ -10,7 +10,7 @@ Exits from a multiplayer lobby. This endpoint is hosted on `geometrydash.com`, n
 | --------------- | --------------------------------------------------- | -------- |
 | `accountID`     | The player's account ID                             | Yes      |
 | `gjp2`          | The player's [GJP2](/topics/gjp.md)                 | Yes      |
-| `secret`        | [Account Secret](/reference/secrets): `Wmfv3899gc9` | Yes      |
+| `secret`        | [Account Secret](/reference/secrets.md): `Wmfv3899gc9` | Yes      |
 | `gameID`        | The ID of the multiplayer lobby                     | Yes      |
 | `gameVersion`   | 22                                                  |          |
 | `binaryVersion` | 42                                                  |          |

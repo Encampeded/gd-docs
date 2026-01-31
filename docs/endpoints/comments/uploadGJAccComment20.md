@@ -9,7 +9,7 @@ Posts an account comment
 | `accountID`                             | Account ID of the user posting the comment                                     | Yes      |
 | `gjp2`                                  | The [GJP2](/topics/gjp.md) of the user posting the comment                     | Yes      |
 | `comment`                               | The comment's text, converted to [URL-safe base64](/topics/encryption/base64). | Yes      |
-| `secret`                                | [Common Secret](/reference/secrets): `Wmfd2893gb7`                             | Yes      |
+| `secret`                                | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                             | Yes      |
 | `gameVersion`                           | 22                                                                             |          |
 | `binaryVersion`                         | 42                                                                             |          |
 | `gdw`                                   | 0                                                                              |          |
@@ -36,7 +36,7 @@ data = {
     "secret": "Wmfd2893gb7",
 }
 
-r = requests.post('http://boomlings.com/database/uploadGJAccComment20.php', data=data)
+r = requests.post('https://www.boomlings.com/database/uploadGJAccComment20.php', data=data)
 print(req.text)
 ```
 

@@ -8,7 +8,7 @@ Gets a user's comment history.
 | --------------- | --------------------------------------------------------------------------------------------------- | -------- |
 | `userID`        | The player ID of the user. **This is different from the account ID.**                               | Yes      |
 | `page`          | Which page of comments you want to see                                                              | Yes      |
-| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                                  | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                  | Yes      |
 | `gameVersion`   | 21                                                                                                  |          |
 | `binaryVersion` | 35                                                                                                  |          |
 | `gdw`           | 0                                                                                                   |          |
@@ -37,7 +37,7 @@ data = {
     "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/getGJCommentHistory.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getGJCommentHistory.php", data=data)
 print(req.text)
 ```
 

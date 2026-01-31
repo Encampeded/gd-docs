@@ -9,7 +9,7 @@ Fetches the leaderboard for a platformer level and submits your level stats to t
 | `accountID`     | The user's account ID                                                                                                                                                              | Yes      |
 | `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                                                                                                  | Yes      |
 | `levelID`       | The ID of the level                                                                                                                                                                | Yes      |
-| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                                                                                                                 | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                                                                                                 | Yes      |
 | `gameVersion`   | 22                                                                                                                                                                                 |          |
 | `binaryVersion` | 42                                                                                                                                                                                 |          |
 | `gdw`           | 0                                                                                                                                                                                  |          |
@@ -62,7 +62,7 @@ data = {
     "secret": "Wmfd2893gb7"
 }
 
-req = requests.post("http://boomlings.com/database/getGJLevelScoresPlat.php", data=data)
+req = requests.post("https://www.boomlings.com/database/getGJLevelScoresPlat.php", data=data)
 print(req.text)
 ```
 

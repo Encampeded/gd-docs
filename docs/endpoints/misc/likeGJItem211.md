@@ -6,7 +6,7 @@ Likes a level, comment, etc.
 
 | Parameter       | Explanation                                                                                | Required |
 | --------------- | ------------------------------------------------------------------------------------------ | -------- |
-| `secret`        | [Common Secret](/reference/secrets): `Wmfd2893gb7`                                         | Yes      |
+| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                         | Yes      |
 | `itemID`        | The ID of the level, comment, or account comment                                           | Yes      |
 | `type`          | 1 for level, 2 for level comment, 3 for account comment, 4 for list                        | Yes      |
 | `gameVersion`   | 22                                                                                         |          |
@@ -38,7 +38,7 @@ data = {
 	"type": 1
 }
 
-req = requests.post('http://boomlings.com/database/likeGJItem211.php', data=data)
+req = requests.post('https://www.boomlings.com/database/likeGJItem211.php', data=data)
 print(req.text)
 ```
 
