@@ -17,6 +17,8 @@ Comments are public messages players can leave on levels, lists, and profiles. T
 
 Comment objects are structured with a `key~value~key~value` pairing, with each comment being split with a pipe `|`
 
+<!-- tabs:start -->
+
 ### Level Comment Example Response
 ```md
 2~R0QgRG9jcyBhcmUgZXBpYw==~3~84696119~4~0~7~0~10~0~9~2 seconds~6~12872819:1~TheWylieMaster~9~1~10~4~11~16~51~38~14~3~15~2~16~9276649
@@ -26,6 +28,8 @@ Comment objects are structured with a `key~value~key~value` pairing, with each c
 ```md
 2~R0QgRG9jcyBhcmUgZXBpYw==~4~11~9~3 months~6~18083050
 ```
+
+<!-- tabs:end -->
 
 Each `key` is tied to a component within the client and the `value` sets data for the specific component. A list of all known keys can be found in the table below
 
