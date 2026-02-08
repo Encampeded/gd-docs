@@ -5,15 +5,15 @@ aside: true
 
 Comments are public messages players can leave on levels, lists, and profiles. There are **two** types of comments: `Level Comments` and `Account Comments`
 
-> - `Level Comments` can be found by clicking the `i` button on the right of a level or list menu; you can also view a specific player's comments by clicking the comment icon on their profile. To post a `Level Comment`, the player can click the speech bubble icon on the info menu. `Level Comments` can be up to **100 characters** in length without external tools
-> - `Account Comments` can be found on player profiles. To post an `Account Comment`, the player can click the speech bubble icon on their profile. `Account Comments` can be up to **140 characters** in length without external tools
+> - `Level Comments` can be found by clicking the `i` button on the right of a level or list menu; you can also view a specific player's comments by clicking the comment icon on their profile. `Level Comments` can be up to **100 characters** in length without external tools
+> - `Account Comments` can be found on player profiles. `Account Comments` can be up to **140 characters** in length without external tools
 
 
 ## Comment Object
 
 `Level Comments` contain a comment object and a user object split by a colon `:`. Level comments are returned by endpoints [getGJComments21](/endpoints/comments/getGJComments21.md) and [getGJCommentHistory](/endpoints/comments/getGJCommentHistory)
 
-`Account Comments` contain only a comment object with keys `2, 4, 6, 9`. Account comments are returned by [getGJAccountComments20](/endpoints/comments/getGJAccountComments20)  
+`Account Comments` contain only a comment object with keys `2, 4, 6, 9`. Account comments are returned by [getGJAccountComments20](/endpoints/comments/getGJAccountComments20)
 
 Comment objects are structured with a `key~value~key~value` pairing, with each comment being split with a pipe `|`
 

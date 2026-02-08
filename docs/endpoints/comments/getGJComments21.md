@@ -1,12 +1,12 @@
 # getGJComments21.php
 
-Gets a level's comments.
+Gets a level or list's comments.
 
 ## Parameters
 
 | Parameter       | Explanation                                                                                         | Required |
 | --------------- | --------------------------------------------------------------------------------------------------- | -------- |
-| `levelID`       | The ID of the level whose comments you're getting. Negative if list                                 | Yes      |
+| `levelID`       | The ID of the level or list. Negative if it's a list ID                                             | Yes      |
 | `page`          | Which page of comments you want to see                                                              | Yes      |
 | `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                               | Yes      |
 | `binaryVersion` | 35                                                                                                  |          |
