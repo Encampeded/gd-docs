@@ -155,9 +155,11 @@ Random number consisting of *5* digits.
 - Length of dinfo
 - dinfow
 - dinfog
+- dinfoe
 - sinfo
 - sinfod
 - sinfog
+- sinfoe
 
 ## Level Leaderboard
 
