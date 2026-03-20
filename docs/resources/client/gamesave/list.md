@@ -25,20 +25,16 @@ A level list is a list of levels - playable objects in Geometry Dash, namely com
 | k27 | Featured | **Bool** | Whether the list is featured or not |
 | k42 | Original | **integer** | The ID the of the original list (if the list was copied) |
 | k46 | List Revision | **integer** | the revision of the list |
+| k47 | hasBeenModified | **Bool** | if the list has been modified from outside GD |
 | k60 | AccountID | **integer** | the Creators AccountID |
 | k79 | Unlisted | **bool** | Whether the list can only be found by searching the ID |
 | k82 | Favourited | **Bool** | if you put the list in your favourites |
 | k83 | levelOrder | **integer** | ordering for lists |
+| k94  | Unlisted (Friends Only) | **bool** | whether the level is friends-only unlisted |
 | k96 | Level IDs | **string** | Comma-separated list of all IDs in the list in order |
 | k97 | Levels | **Dictionary** | Dictionary of all the [levels](/resources/client/level.md) in the list |
 | k98 | Upload Date | **Integer** | UNIX timestamp of the level's upload date (in seconds) |
 | k99 | Update Date | **Integer** | UNIX timestamp of the level's update date (in seconds) |
+| k100 | Levels Loaded | **bool** | Whether the levels in the list have been loaded |
 | k113 | Diamond Reward | **Integer** | Amount of diamonds awarded upon beating the required number of levels |
 | k114 | Required Levels | **Integer** | How many levels have to be beaten to claim the award |
-
-**Current Unknown Values**
-
-| Key | Type | Info |
-| --- | ---- | ---- |
-| k94 | **Bool** | |
-| k100 | **Bool** | |
