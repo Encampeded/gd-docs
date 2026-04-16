@@ -166,7 +166,8 @@ Random number consisting of *5* digits.
 - AccountID
 - LevelID
 - Percentage
-- Jumps
+- Time of the best attempt in seconds
+- Amount of clicks done on the best attempt
 - Attempts
 - Seed
 
@@ -212,7 +213,8 @@ For example, `0%` - `13%` - `100%` -> `(13 - 0), (100 - 13)` -> `13,87`
 
 - Coins
 - TimelyID
-- [RS](/topics/encryption/id.md#rs)
+- Salt (yPg6pUrtWn0J)
+- [RS](/topics/encryption/id.md#rs) - s7 param - a randomly generated 10 character string
 
 ## Upload Multiplayer Comment
 
