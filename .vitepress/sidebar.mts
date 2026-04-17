@@ -162,6 +162,32 @@ export default [
         "text": "Misc",
         "items": [
           {
+            "text": "Web Leaderboards",
+            "items": [
+              {
+                "text": "icon-extras.json",
+                "link": "/endpoints/misc/lb/icon-extras"
+              },
+              {
+                "text": "top-demons.json",
+                "link": "/endpoints/misc/lb/top-demons"
+              },
+              {
+                "text": "top-moons.json",
+                "link": "/endpoints/misc/lb/top-moons"
+              },
+              {
+                "text": "top-stars.json",
+                "link": "/endpoints/misc/lb/top-stars"
+              },
+              {
+                "text": "top-usercoins.json",
+                "link": "/endpoints/misc/lb/top-usercoins"
+              }
+            ],
+            "collapsed": true
+          },
+          {
             "text": "getAccountURL.php",
             "link": "/endpoints/misc/getAccountURL"
           },
@@ -184,6 +210,10 @@ export default [
           {
             "text": "restoreGJItems.php",
             "link": "/endpoints/misc/restoreGJItems"
+          },
+          {
+            "text": "top-creators.json",
+            "link": "/endpoints/misc/top-creators"
           }
         ],
         "collapsed": true
