@@ -18,7 +18,7 @@
 | `accountID`       | The ID for the account which is doing the search. Only sent on types 8, 13 and 5                              |                                       |
 | `gdw`             | Whether the request is for GD World, either 0 or 1                                                            |                                       |
 | `gauntlet`        | The ID for the gauntlet being requested                                                                       |                                       |
-| `diff`            | Difficulty filter, [see values](#diff)                                                                        |                                       |
+| `diff`            | Comma-separated list of difficulty values, [see values](#diff)                                                |                                       |
 | `demonFilter`     | Selects which demon difficulty to search, [see values](#demon-filter). If not sent will search all demon types |                                       |
 | `len`             | Level length, [see values](#len)                                                                              |                                       |
 | `uncompleted`     | Uncompleted filter, either 0 or 1                                                                             |                                       |
