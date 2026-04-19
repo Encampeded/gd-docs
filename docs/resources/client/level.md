@@ -107,7 +107,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k116 | Ticks (Best Points)            | **integer**                                                      | Amount of 240 TPS ticks on the attempt that had the most points |
 | k117 | Clicks (Best Time)             | **integer**                                                      | Amount of clicks on the attempt that had the fastest time |
 | k118 | Clicks (Best Points)           | **integer**                                                      | Amount of clicks on the attempt that had the most points |
-| k119 | Inputs? (Best Time)            | **string**                                                       | The inputs on the attempt that had the fastest time? - seems to be unused |
+| k119 | Inputs (Best Time)             | **string**                                                       | The inputs on the attempt that had the fastest time - only used for local levels |
 | k120 | Inputs? (Best Points)          | **string**                                                       | The inputs on the attempt that had the most points? - seems to be unused |
 | k121 | Coins Collected (Best Time)    | **integer**                                                      | Amount of coins collected on the attempt that has the fastest time |
 | k122 | Coins Collected (Best Points)  | **integer**                                                      | Amount of coins collected on the attempt that has the most points |
