@@ -41,6 +41,6 @@ The metadata is comparatively simple. It's a list of 5 values separated by `,`. 
 `Random Seed,Attempts,gameVersion,binaryVersion,unknown,`
 
 - Random Seed is the seed used for random triggers on the attempt of the replay.
-- Attempts is NOT the total amount of attempts, just the amount of attempts in the current session
+- Attempts is NOT the total amount of attempts, just the amount of attempts the replay took
 - gameVersion and binaryVersion are the same as what the game sends to the servers. Currently `22` and `47` (`48` on mobile) respectively.
 - The last value is unknown and seems to always be 1
