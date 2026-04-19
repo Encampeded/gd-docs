@@ -61,7 +61,7 @@ These values represent the state of persistent item IDs and triggers at the star
 
 `timer_id` and `timer_data` is the same for timers, but `timer_data` stores more than just the timer value as it contains a bunch of timer settings, separated by `&`. The values are:
 
-`timer_id&timer_value&running&time_mod&ignoreTimewarp&stopTime&unk&unk&unk&unk&unk&`
+`timer_id&timer_value&running&time_mod&ignoreTimewarp&stopTime&stopTimeEnabled&targetGroupID&unk&unk&unk&`
 
 - `timer_id` is the timer ID
 - `timer_value` is the value the timer is at
@@ -69,3 +69,5 @@ These values represent the state of persistent item IDs and triggers at the star
 - `time_mod` is the value the time is multipled by (the TimeMod value in the Time trigger)
 - `ignoreTimewarp` is 1 if Ignore TimeWarp is enabled, 0 otherwise
 - `stopTime` is the value at which the timer will stop
+- `stopTimeEnabled` is 1 if the Stop Time is enabled, 0 otherwise
+- `targetGroupID` is the group ID that is set to spawn when the timer hits StopTime
