@@ -53,7 +53,7 @@ The metadata is comparatively simple. It's a list of 5 values separated by `,`. 
 ## Item Pers Data
 The Item Pers data is formatted as follows:
 
-`item_id|item_value|item_id|item_value...@timer_id|timer_data|timer_id|timer_data...|
+`item_id|item_value|item_id|item_value...@timer_id|timer_data|timer_id|timer_data...|`
 
 These values represent the state of persistent item IDs and triggers at the start of the winning replay attempt.
 
