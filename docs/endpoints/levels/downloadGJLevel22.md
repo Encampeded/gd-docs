@@ -4,21 +4,21 @@ Downloads a user level and info so it can be played.
 
 ## Parameters
 
-| Parameter       | Explanation                                                                                                | Required |
-| --------------- | ---------------------------------------------------------------------------------------------------------- | -------- |
-| `levelID`       | The ID of the level to download. Use -1 for the daily level, -2 for the weekly and -3 for the event level. | Yes      |
-| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                         | Yes      |
-| `gameVersion`   | 22                                                                                                         |          |
-| `binaryVersion` | 47                                                                                                         |          |
-| `dvs`           | 3                                                                                                          |          |
-| `accountID`     | The account ID of the user who is downloading the level                                                    |          |
-| `gjp2`          | The [GJP2](/topics/gjp#generating-gjp2) of the user who is downloading the level                                         |          |
-| `udid`          | The [udid](/topics/encryption/id#udid) of the user who is downloading the level                            |          |
-| `uuid`          | The [uuid](/topics/encryption/id#uuid) of the user who is downloading the level                            |          |
-| `inc`           | Whether the amount of downloads should be incremented on the level (requires proper authentication)        |          |
-| `extras`        | Used to return some extra data when set to 1, but was disabled sometime in 2022                            |          |
-| `rs`            | [See here](/topics/encryption/id#rs)                                                                       |          |
-| `chk`           | [See here](/topics/encryption/chk#download-level)                                                          |          |
+| Parameter       | Explanation | Required |
+| --------------- | ----------- | -------- |
+| `levelID`       | The ID of the level to download. Use -1 for the daily level, -2 for the weekly and -3 for the event level. | Yes      | <!--a-->
+| `secret`        | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
+| `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
+| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
+| `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
+| `accountID`     | <ParamDesc name="accountID"/> |          | <!--a-->
+| `gjp2`          | <ParamDesc name="gjp2"/> |          | <!--a-->
+| `udid`          | <ParamDesc name="udid"/> |          | <!--a-->
+| `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
+| `inc`           | Whether the amount of downloads should be incremented on the level (requires proper authentication) |          | <!--o-->
+| `extras`        | Used to return some extra data when set to 1, but was disabled sometime in 2022 |          |
+| `rs`            | [See here](/topics/encryption/id#rs) |          | <!--a-->
+| `chk`           | [See here](/topics/encryption/chk#download-level) |          | <!--a-->
 
 ## Response
 

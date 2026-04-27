@@ -4,17 +4,19 @@ Gets a user's DMs.
 
 ## Parameters
 
-| Parameter       | Explanation                                                                                        | Required |
-| --------------- | -------------------------------------------------------------------------------------------------- | -------- |
-| `accountID`     | The user's account ID                                                                              | Yes      |
-| `gjp2`          | The user's [GJP2](/topics/gjp.md)                                                                  | Yes      |
-| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                 | Yes      |
-| `gameVersion`   | 22                                                                                                 |          |
-| `binaryVersion` | 42                                                                                                 |          |
-| `gdw`           | 0                                                                                                  |          |
-| `page`          | Which page of messages you want, starting at 0. Defaults to the first if left out.                 |          |
-| `total`         | Current use is unknown, defaults to the amount of message the user has, but leaving it as 0 works. |          |
-| `getSent`       | 0 for the messages the user has received, 1 for the messages they sent. If left out defaults to 0  |          |
+| Parameter       | Explanation | Required |
+| --------------- | ----------- | -------- |
+| `accountID`     | <ParamDesc name="accountID"/> | Yes      | <!--a-->
+| `gjp2`          | <ParamDesc name="gjp2"/> | Yes      | <!--a-->
+| `secret`        | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
+| `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
+| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
+| `udid`          | <ParamDesc name="udid"/> |          | <!--a-->
+| `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
+| `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
+| `page`          | Which page of messages you want, starting at `0`. Defaults to the first if left out |          | <!--a-->
+| `total`         | Probably the cached total number of messages, default is `0` |          | <!--a-->
+| `getSent`       | `0` for the messages the user has received, `1` for the messages they sent. If left out defaults to `0` |          | <!--o-->
 
 ## Response
 

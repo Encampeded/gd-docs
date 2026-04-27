@@ -4,13 +4,17 @@ Gets the map packs.
 
 ## Parameters
 
-| Parameter       | Explanation                                                           | Required |
-| --------------- | --------------------------------------------------------------------- | -------- |
-| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                    | Yes      |
-| `gameVersion`   | 22                                                                    |          |
-| `binaryVersion` | 42                                                                    |          |
-| `gdw`           | 0                                                                     |          |
-| `page`          | Denotes which page of map packs you want to retrieve, starting with 0 |          |
+| Parameter       | Explanation | Required |
+| --------------- | ----------- | -------- |
+| `secret`        | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
+| `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
+| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
+| `udid`          | <ParamDesc name="udid"/> |          | <!--a-->
+| `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
+| `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
+| `accountID`     | <ParamDesc name="accountID"/> |          | <!--a-->
+| `gjp2`          | <ParamDesc name="gjp2"/> |          | <!--a-->
+| `page`          | Denotes which page of map packs you want to retrieve, starting with 0 |          | <!--a-->
 
 ## Response
 

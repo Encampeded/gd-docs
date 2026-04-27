@@ -4,15 +4,17 @@ Download a message.
 
 ## Parameters
 
-| Parameter       | Explanation                                        | Required |
-| --------------- | -------------------------------------------------- | -------- |
-| `accountID`     | The person's account ID                            | Yes      |
-| `gjp2`          | The person's [GJP2](/topics/gjp.md)                | Yes      |
-| `messageID`     | The ID of the message to read                      | Yes      |
-| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7` | Yes      |
-| `gameVersion`   | 22                                                 |          |
-| `binaryVersion` | 42                                                 |          |
-| `gdw`           | 0                                                  |          |
+| Parameter       | Explanation | Required |
+| --------------- | ----------- | -------- |
+| `accountID`     | <ParamDesc name="accountID"/> | Yes      | <!--a-->
+| `gjp2`          | <ParamDesc name="gjp2"/> | Yes      | <!--a-->
+| `messageID`     | The ID of the message to read                      | Yes      | <!--a-->
+| `secret`        | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
+| `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
+| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
+| `udid`          | <ParamDesc name="udid"/> |          | <!--a-->
+| `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
+| `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
 
 ## Response
 

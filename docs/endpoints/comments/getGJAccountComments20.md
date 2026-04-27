@@ -16,7 +16,7 @@ Gets a user's account comments.
 | `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
 | `gjp2`          | <ParamDesc name="gjp2"/> |          | <!--a-->
 | `total`         | Probably the cached total number of account comments, default is `0` |          | <!--a-->
-| `count`         | Amount of account comments that will be returned. Max 20, default 10 |          | <!--old?-->
+| `count`         | Amount of account comments that will be returned. Max 20, default 10 |          | <!--old? not sent-->
 
 ## Response
 

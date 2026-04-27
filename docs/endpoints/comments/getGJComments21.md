@@ -4,16 +4,21 @@ Gets a level or list's comments.
 
 ## Parameters
 
-| Parameter       | Explanation                                                                                                                | Required |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------- | -------- |
-| `levelID`       | The ID of the level or list. Negative if it's a list ID                                                                    | Yes      |
-| `page`          | Which page of comments you want to see                                                                                     | Yes      |
-| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                                                      | Yes      |
-| `binaryVersion` | 35                                                                                                                         |          |
-| `gdw`           | 0                                                                                                                          |          |
-| `mode`          | Set to 0 for most recent, and 1 for most liked                                                                             |          |
-| `total`         | Current use is unknown, defaults to the amount of comments the user has, but leaving it as 0 works.                        |          |
-| `count`         | Number of comments to fetch. Defaults to 10, but doubles if "More Comments" is enabled or in compact view (stacking)       |          |
+| Parameter       | Explanation | Required |
+| --------------- | ----------- | -------- |
+| `levelID`       | The ID of the level or list. Negative if it's a list ID | Yes      | <!--a-->
+| `page`          | Which page of comments you want to see | Yes      | <!--a-->
+| `secret`        | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
+| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
+| `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
+| `udid`          | <ParamDesc name="udid"/> |          | <!--a-->
+| `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
+| `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
+| `accountID`     | <ParamDesc name="accountID"/> |          | <!--a-->
+| `gjp2`          | <ParamDesc name="gjp2"/> |          | <!--a-->
+| `mode`          | Set to 0 for most recent, and 1 for most liked |          | <!--a-->
+| `total`         | Probably the cached total number of comments, default is `0` |          | <!--a-->
+| `count`         | Number of comments to fetch. Defaults to 10, but doubles if "More Comments" is enabled or in compact view (stacking) |          | <!--o: not sent when =10-->
 
 ## Response
 

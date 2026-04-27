@@ -4,15 +4,17 @@ Gets either your friend list or your blocked list
 
 ## Parameters
 
-| Parameter       | Explanation                                                                     | Required |
-| --------------- | ------------------------------------------------------------------------------- | -------- |
-| `accountID`     | The account ID of the user you want to get the friends/blocklist of             | Yes      |
-| `gjp2`          | The [GJP2](/topics/gjp.md) of the user you want to get the friends/blocklist of | Yes      |
-| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                              | Yes      |
-| `gameVersion`   | 22                                                                              |          |
-| `binaryVersion` | 42                                                                              |          |
-| `gdw`           | 0                                                                               |          |
-| `type`          | 0 for friends, 1 for blocklist. Defaults to 0 if left out                       |          |
+| Parameter       | Explanation | Required |
+| --------------- | ----------- | -------- |
+| `accountID`     | <ParamDesc name="accountID"/> | Yes      | <!--a-->
+| `gjp2`          | <ParamDesc name="gjp2"/> | Yes      | <!--a-->
+| `secret`        | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
+| `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
+| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
+| `udid`          | <ParamDesc name="udid"/> |          | <!--a-->
+| `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
+| `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
+| `type`          | 0 for friends, 1 for blocklist. Defaults to 0 if left out |          | <!--a-->
 
 ## Response
 
