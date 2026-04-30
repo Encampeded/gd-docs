@@ -4,19 +4,21 @@ Uploads a comment to a user level.
 
 ## Parameters
 
-| Parameter                       | Explanation                                                                           | Required |
-| ------------------------------- | ------------------------------------------------------------------------------------- | -------- |
-| `accountID`                     | The commenter's account ID                                                            | Yes      |
-| `gjp2`                          | The commenter's [GJP2](/topics/gjp.md)                                                | Yes      |
-| `userName`                      | The commenter's username                                                              | Yes      |
-| `comment`                       | The comment, converted to [URL-safe base64](/topics/encryption/base64)                | Yes      |
-| `secret`                        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                    | Yes      |
-| `levelID`                       | The ID of the level to comment on. If commenting on a list, the ID should be negative | Yes      |
-| `percent`                       | The level percentage shown on the comment                                             | Yes      |
-| [`chk`](/topics/encryption/chk) | `userName` + `comment` + `levelID` + `percent`                                        | Yes      |
-| `gameVersion`                   | 22                                                                                    |          |
-| `binaryVersion`                 | 42                                                                                    |          |
-| `gdw`                           | 0                                                                                     |          |
+| Parameter       | Explanation | Required |
+| --------------- | ----------- | -------- |
+| `accountID`     | <ParamDesc name="accountID"/> | Yes      | <!--a-->
+| `gjp2`          | <ParamDesc name="gjp2"/> | Yes      | <!--a-->
+| `userName`      | The commenter's username | Yes      | <!--a-->
+| `comment`       | The comment, converted to [URL-safe base64](/topics/encryption/base64) | Yes      | <!--a-->
+| `secret`        | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
+| `levelID`       | The ID of the level to comment on. If commenting on a list, the ID should be negative | Yes      | <!--a-->
+| `percent`       | The level percentage shown on the comment | Yes      | <!--o: not sent when zero-->
+| [`chk`](/topics/encryption/chk) | `userName` + `comment` + `levelID` + `percent` | Yes      | <!--a-->
+| `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
+| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
+| `udid`          | <ParamDesc name="udid"/> |          | <!--a-->
+| `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
+| `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
 
 ## Response
 

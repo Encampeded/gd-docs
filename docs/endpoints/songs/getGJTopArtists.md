@@ -4,14 +4,18 @@ Gets RobTop's handpicked top artists.
 
 ## Parameters
 
-| Parameter       | Explanation                                                                                     | Required |
-| --------------- | ----------------------------------------------------------------------------------------------- | -------- |
-| `secret`        | [Common Secret](/reference/secrets.md): `Wmfd2893gb7`                                              | Yes      |
-| `gameVersion`   | 22                                                                                              |          |
-| `binaryVersion` | 42                                                                                              |          |
-| `gdw`           | 0                                                                                               |          |
-| `page`          | Which page of the artists you want to see                                                       |          |
-| `total`         | Current use is unknown, defaults to the amount of artists there are, but leaving it as 0 works. |          |
+| Parameter       | Explanation | Required |
+| --------------- | ----------- | -------- |
+| `secret`        | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
+| `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
+| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
+| `udid`          | <ParamDesc name="udid"/> |          | <!--a-->
+| `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
+| `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
+| `accountID`     | <ParamDesc name="accountID"/> |          | <!--a-->
+| `gjp2`          | <ParamDesc name="gjp2"/> |          | <!--a-->
+| `page`          | Which page of the artists you want to see |          | <!--a-->
+| `total`         | Probably the cached total number of artists, default is `0` |          | <!--a-->
 
 ## Response
 
