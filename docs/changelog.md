@@ -3,7 +3,10 @@ aside: true
 ---
 # Changelog
 
-## Upcoming version
+> [!NOTE]
+> Happy 2.209 release! This page will be updated very soon with every update-related change.
+
+## 2.209
 
 - `binaryVersion`: `49`
 - new level keys [`62` and `63`](/resources/server/level#:~:text=62,was%20last%20updated) with exact upload/update times, presumably replacing keys `28` and `29`
