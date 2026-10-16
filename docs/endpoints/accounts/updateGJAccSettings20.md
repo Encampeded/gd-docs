@@ -10,8 +10,10 @@ Updates a user's account settings
 | `gjp2`      | <ParamDesc name="gjp2"/> | Yes      | <!--a-->
 | `secret`    | <ParamDesc name="secret" type="account"/> | Yes      | <!--a-->
 | `mS`        | Who the user allows messages from: 0 for anyone, 1 for just friends, and 2 for no one |          | <!--a-->
-| `frS`       | Who the user allows friend requests from: 0 for anyone, and 1 for no one |          | <!--a-->
+| `frS`       | Who the user allows friend requests from: 0 for anyone, 1 for no one, 2 for anyone + they can include a message |          | <!--a-->
 | `cS`        | Who the user allows to view their comments: 0 for anyone, 1 for just friends, and 2 for only themselves |          | <!--a-->
+| `gF`        | Who the user allows group chat invites from: 0 for anyone, 1 for friends, and 2 for no one |          | <!--a-->
+| `gO`        | Unknown, sent as 2 |          | <!--a-->
 | `yt`        | The end of the link to the user's youtube channel, after the `/channel/`. e.g. `UCZoN2WLAooS6uhREa9Cgpwg` |          | <!--a-->
 | `twitter`   | The user's twitter handle |          | <!--a-->
 | `twitch`    | The user's twitch username |          | <!--a-->
