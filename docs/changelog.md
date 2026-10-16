@@ -9,6 +9,21 @@ aside: true
 ## 2.209
 
 - `binaryVersion`: `49`
+- 52 new endpoints:
+	- sound packs: `getGJEditorSounds`, `uploadGJEditorSound`, `downloadGJEditorSound`, `deleteGJEditorSound`, `updateGJSoundDesc`
+	- custom platformer controls: `uploadGJLevelControls`, `getGJLevelControls`, `deleteGJLevelControls`
+	- `getGJDeathData`, `uploadGJDeathData` - likely death markers
+	- thread system (group chats): `getGJThreads`, `getGJThreadMessages`, `getGJThreadMembers`, `getGJThreadInvites`, `sendGJThreadMessage`, `updateGJThread`, `searchGJThreadMessages`
+	- notification system: `claimGJNotificationReward`, `getGJNotifications`, `muteGJUser`
+	- new content-reporting system covering levels, lists, sound packs, users, threads, comments, messages and friend requests: `reportGJContent`
+	- the follow system is now server-sided: `followGJUser`, `unfollowGJUser`, `getGJFollowing`, `syncGJFollowing`
+	- song usage statistics: `getGJSongUsage`
+	- `getGJUserSearch` for the global user search in submenus of your user profile
+	- `getGJAudioFilesize` for getting total size of audio assets in editor
+	- `getGJContentStatus`
+	- `openedRegister` which returns an `rsession` token used with `registerGJAccount`
+	- 22 moderation endpoints: `adminGetUserHistory`, `adminGetReportedContent`, `adminClearReportedContent`, `adminGetReportQueue`, `adminGetAbuseInfo`, `adminGetAccountReview`, `adminThreadAction`, `adminDeleteUserComments`, `adminCommentBan`, `adminUploadBan`, `adminMessageBan`, `adminFreezeAccount`, `adminTrendingBan`, `adminNameLock`, `adminCommentUnban`, `adminUploadUnban`, `adminCloseCase`, `adminMessageUnban`, `adminUnfreezeAccount`, `adminTrendingUnban`, `adminNameUnlock`, `deleteGJComments`
+- in-game news: https://geometrydashfiles.b-cdn.net/news/news.dat with https://geometrydashfiles.b-cdn.net/news/news_version.txt
 - new level keys [`62` and `63`](/resources/server/level#:~:text=62,was%20last%20updated) with exact upload/update times, presumably replacing keys `28` and `29`
 - comment/profile post key `15`, which contains the unix timestamp of when the comment was posted
 - level key [`54`](/resources/server/level#:~:text=54,SFX%2C%20in%20bytes), which was only present in the game's code, is now sent by the server
@@ -17,12 +32,6 @@ aside: true
 - [Account Management](/topics/account_management#changeemail-php) now supports changing the primary email and also managing the recovery email
 - downloadGJLevel responses include new data at the end
 - new error responses with the title and body of an error message popup
-- `getGJEditorSounds`, `uploadGJEditorSound`, `downloadGJEditorSound`, `deleteGJEditorSound`, `updateGJSoundDesc`. Editor sound packs reuse the level list structure with a few new keys
-- `getGJDeathData`, `uploadGJDeathData` - probably death markers
-- `getGJThreads`, `getGJThreadMessages`, `getGJThreadMembers`, `getGJThreadInvites`, `sendGJThreadMessage`, `updateGJThread`, `searchGJThreadMessages`
-- `reportGJContent` probably for reporting comments
-- in-game news: https://geometrydashfiles.b-cdn.net/news/news.dat
-- `followGJUser.php`, `unfollowGJUser.php` - following system has been made server-sided
 - new user keys `65` through `70`. 68 is your personal followed amount, and 69 is if you follow the person whose profile you're viewing (0 or 1). 67 is speculated to be total follower count, but has not been entirely confirmed as it might just not update live.
 - new types for getGJUserList20 (friendlist) `3` and `4` - 3 contains the user objects of the people you follow, 4 has not been figured out yet
 
