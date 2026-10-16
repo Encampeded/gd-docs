@@ -76,9 +76,9 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0072 | disableGravityEffect |
 | gv_0073 | newCompletedFilter |
 | gv_0074 | showRestartButton |
-| gv_0075 | disableComments |
-| gv_0076 | disableAccountComments |
-| gv_0077 | featuredLevelsOnly |
+| gv_0075 | Disable Comments |
+| gv_0076 | Disable Posts |
+| gv_0077 | Only Curated Levels |
 | gv_0078 | hideBackground (editor) |
 | gv_0079 | hideGridOnPlay (editor) |
 | gv_0081 | disableShakeEffects |
@@ -175,10 +175,14 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0214 | Hitbox Trail On Death |
 | gv_0215 | Hitbox Trail (editor) |
 | gv_0217 | Hitbox Trail Highlight |
+| gv_0218 | Safe Mode |
+| gv_0219 | Offline Mode |
+| gv_0228 | Parental Controls Lock |
 | gv_0234 | No Auto-Checkpoints For Start Pos |
 | gv_0235 | Hide Mod Buttons |
 | gv_0239 | Notifications Bitmask (which notification types are disabled) |
 | gv_0242 | Disable Anchor Snap |
+| gv_0243 | Disable Messaging |
 | gv_0245 | Disable Pinch |
 
 # Unlocked Game Variables
