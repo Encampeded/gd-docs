@@ -14,7 +14,7 @@ Gets either your friend list or your blocked list
 | `udid`          | <ParamDesc name="udid"/> |          | <!--a-->
 | `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
 | `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
-| `type`          | 0 for friends, 1 for blocklist. Defaults to 0 if left out |          | <!--a-->
+| `type`          | 0 for friends, 1 for blocklist, 3 for list of accounts you're following, 4 for list of muted accounts. Defaults to 0 if left out |          | <!--a-->
 
 ## Response
 
