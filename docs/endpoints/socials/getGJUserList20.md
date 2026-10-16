@@ -1,6 +1,6 @@
 # getGJUserList20.php
 
-Gets either your friend list or your blocked list
+Gets one of your user lists (friends, blocklist, followed accounts list or muted accounts list)
 
 ## Parameters
 
