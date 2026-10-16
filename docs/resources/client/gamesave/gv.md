@@ -166,7 +166,20 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0179 | Hitbox on Death |
 | gv_0180 | Quick Disable Link Controls (editor, the gray link button) |
 | gv_0181 | Static Trace Arrows (editor) |
+| gv_0191 | Legacy Move Menu |
+| gv_0196 | Disable Player Trail |
+| gv_0197 | Disable Wave Trail |
+| gv_0203 | Disable Auto Creator Controls |
+| gv_0212 | Skip Death Triggers |
+| gv_0213 | Show Hitbox Trail |
+| gv_0214 | Hitbox Trail On Death |
+| gv_0215 | Hitbox Trail (editor) |
+| gv_0217 | Hitbox Trail Highlight |
+| gv_0234 | No Auto-Checkpoints For Start Pos |
+| gv_0235 | Hide Mod Buttons |
 | gv_0239 | Notifications Bitmask (which notification types are disabled) |
+| gv_0242 | Disable Anchor Snap |
+| gv_0245 | Disable Pinch |
 
 # Unlocked Game Variables
 
