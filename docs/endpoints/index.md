@@ -71,8 +71,8 @@ All Geometry Dash endpoints that can be found in the binary or inside another en
 | [`https://www.boomlings.com/database/getGJSongInfo.php`](/endpoints/songs/getGJSongInfo.md)                         | Songs           |
 | [`https://www.boomlings.com/database/getGJTopArtists.php`](/endpoints/songs/getGJTopArtists.md)                     | Songs           |
 | [`https://geometrydashfiles.b-cdn.net/music/musiclibrary_02.dat`](/endpoints/songs/musiclibrary.md) | Songs           |
-| [`https://geometrydashfiles.b-cdn.net/music/musiclibrary_version_02.txt`](/endpoints/songs/sfxlibrary.md) | Songs           |
-| [`https://geometrydashfiles.b-cdn.net/sfx/sfxlibrary.dat`](/endpoints/songs/musiclibrary.md) | Songs           |
+| [`https://geometrydashfiles.b-cdn.net/music/musiclibrary_version_02.txt`](/endpoints/songs/musiclibrary.md) | Songs           |
+| [`https://geometrydashfiles.b-cdn.net/sfx/sfxlibrary.dat`](/endpoints/songs/sfxlibrary.md) | Songs           |
 | [`https://geometrydashfiles.b-cdn.net/sfx/sfxlibrary_version.txt`](/endpoints/songs/sfxlibrary.md) | Songs           |
 | &ZeroWidthSpace;                                                                                                    |                 |
 | [`https://www.boomlings.com/database/getGJScores20.php`](/endpoints/users/getGJScores20.md)                         | Users           |
