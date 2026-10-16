@@ -1,6 +1,6 @@
 # muteGJUser.php
 
-Mutes or unmutes a user
+Mutes or unmutes a user from sending you notifications
 
 ## Parameters
 
