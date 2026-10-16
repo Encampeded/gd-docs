@@ -6,7 +6,7 @@ Unfollows a user
 
 | Parameter       | Explanation | Required |
 | --------------- | ----------- | -------- |
-| `targetAccountID`| Who to follow | Yes | <!--a-->
+| `targetAccountID`| Who to unfollow | Yes | <!--a-->
 | `accountID`     | <ParamDesc name="accountID"/> | Yes | <!--a-->
 | `gjp2`          | <ParamDesc name="gjp2"/> | Yes | <!--a-->
 | `secret`        | <ParamDesc name="secret" type="common"/> | Yes | <!--a-->
