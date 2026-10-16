@@ -8,7 +8,7 @@ aside: true
 
 ## 2.209
 
-- `binaryVersion`: `49`
+- `binaryVersion`: `51`
 - 52 new endpoints:
 	- sound packs: `getGJEditorSounds`, `uploadGJEditorSound`, `downloadGJEditorSound`, `deleteGJEditorSound`, `updateGJSoundDesc`
 	- custom platformer controls: `uploadGJLevelControls`, `getGJLevelControls`, `deleteGJLevelControls`
