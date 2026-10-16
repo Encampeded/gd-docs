@@ -36,4 +36,4 @@ A list of all known keys can be found in the table below
 | 13  | unknown		   | **Integer** | Seems to always be 0
 | 14  | unknown		   | **Integer** | Seems to always be 0
 | 15  | accountID		 | **Integer** | The account ID of the account associated with this notification, if applicable. 0 otherwise
-| 16  | username   	 | **Integer** | The username of the account associated with this notification, if applicable. 0 otherwise
+| 16  | username   	 | **Integer** | The username of the account associated with this notification, if applicable
