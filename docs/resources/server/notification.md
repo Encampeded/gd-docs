@@ -22,7 +22,7 @@ A list of all known keys can be found in the table below
 | Key | Name/Value | Type | Description |
 | --- | ---------- | ---- | ----------- |
 | 1   | notificationID  | **Integer** | The notification ID
-| 2   | type  | **Integer** | The notification's type. Current known types are 10 for new levels, 11 for level download milestones, 13 for follower milestone notifications, 15 for level rates
+| 2   | type  | **Integer** | The notification's type. Current known types are 10 for new levels, 11 for level download milestones, 13 for follower milestone notifications, 14 for friend accepts, 15 for level rates
 | 3   | emoteIcon   | **String** | The name of the emote used as the icon
 | 4   | title      | **String** | The title encoded in [Base64](/topics/encryption/base64.md)
 | 5   | description | **String** | The description of the notification encoded in [Base64](/topics/encryption/base64.md)
