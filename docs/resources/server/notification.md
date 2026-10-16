@@ -33,7 +33,7 @@ A list of all known keys can be found in the table below
 | 10  | achievement	   | **String** | The achievement given by this notification
 | 11   | unknown		   | **Integer** | Seems to always be 0
 | 12  | unknown		   | **Integer** | Seems to always be 0
-| 13  | unknown		   | **Integer** | Seems to always be 0
-| 14  | unknown		   | **Integer** | Seems to always be 0
+| 13  | hasChest		 | **Bool** | Whether the notification has a chest
+| 14  | chestType		 | **Integer** | 0 if chest isn't present, otherwise a value from 1 to 9 indicating the texture the chest will use
 | 15  | accountID		 | **Integer** | The account ID of the account associated with this notification, if applicable. 0 otherwise
 | 16  | username   	 | **Integer** | The username of the account associated with this notification, if applicable
