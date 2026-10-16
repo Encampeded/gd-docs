@@ -1,6 +1,6 @@
 # getGJNotifications.php
 
-Fetch your notifications
+Fetches your notifications
 
 ## Parameters
 
