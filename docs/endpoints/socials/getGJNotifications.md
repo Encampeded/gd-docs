@@ -34,6 +34,9 @@ The `mask` parameter represents which notification types are enabled/disabled. A
 
 ## Response
 
-Always 1 if the correct values are provided, even if the account does not exist. 
-  
-However, if you mute a nonexistent account ID, your muted account list will break, displaying "Something went wrong"
+The [Notification Objects](/resources/server/notification.md), separated by pipes `|`. After that, a `#` separates the page info, which is in the format `total:offset:amount` where total is the total number of notifications for the query, offset is the offset from which the current page starts and amount is the number of notifications per page
+
+## Example Response
+
+`1:238895:2:15:3:star:4:UmF0ZWQh:5:PGNnPjFNYWRKYWNrMTwvYz4ncyBsZXZlbCA8Y3k-U0hVU0g8L2M-IGlzIG5vdyA8Y3M-UmF0ZWQ8L2M-IQ==:6:1 week:7:0:8:1:9:149626560:10::11:0:12:0:13:0:14:0:15:14452988:16:1MadJack1|1:238513:2:15:3:epic:4:RXBpYyE=:5:PGNnPnJvYWRraWxsZXI8L2M-J3MgbGV2ZWwgPGN5PmtpbGxlZDwvYz4gaXMgbm93IDxjbz5FcGljPC9jPiE=:6:1 week:7:0:8:1:9:149867590:10::11:0:12:0:13:0:14:0:15:2171511:16:roadkiller#2:0:10`
+
