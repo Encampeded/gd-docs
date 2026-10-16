@@ -27,7 +27,7 @@ A list of all known keys can be found in the table below
 | 4   | title      | **String** | The title encoded in [Base64](/topics/encryption/base64.md)
 | 5   | description | **String** | The description of the notification encoded in [Base64](/topics/encryption/base64.md)
 | 6   | age   | **String** | How old the notification is (e.g. "1 week")
-| 7   | unknown		   | **Integer** | Seems to always be 0
+| 7   | isNew		   | **Bool** | Whether you are seeing the notification for the first time. Adds a green circle to the top left of the notification's icon in-game
 | 8	  | hasLevel	   | **Bool** | 1 if the notification has a level attached to it, 0 otherwise
 | 9	  | levelID	   | **Integer** | The level ID for this notification, if it has one. 0 otherwise
 | 10  | achievement	   | **String** | The achievement given by this notification
