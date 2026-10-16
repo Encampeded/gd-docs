@@ -22,6 +22,7 @@ Gets miscellaneous Geometry Dash-related info about a song
   - Amount of levels that use the song as the main one
   - Amount of rated levels that use the song as the main one
   - Total amount of downloads on all the rated levels with the song
+  
 Then, separated by a `#`, the groupings of which difficulties use the song. The groupings have 3 values each, which are separated by `:`. The groupings are separated by a pipe (`|`).
   - Rating: 0 for rated, 1 for featured, 2 for epic, 3 for legendary, 4 for mythic
   - Difficulty: 0 for Auto, 1 for Easy, 2 for Normal, 3 for Hard, 4 for Harder, 5 for Insane, 6 for Demon
