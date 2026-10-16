@@ -35,7 +35,7 @@ Each `key` is tied to a component within the client and the `value` sets data fo
 | 16 | accountID | **Integer** | The player's account ID |
 | 17 | userCoins | **Integer** | The number of user coins the player has |
 | 18* | messageState | **Integer** | Who can send the player messages. 0 = All, 1 = Friends only, 2 = None |
-| 19* | friendsState | **Integer** | Who can send the player friend requests. 0 = All, 1 = None |
+| 19* | friendsState | **Integer** | Who can send the player friend requests. 0 = All, 1 = None, 2 = All, and messages can be attached |
 | 20* | youTube | **String** | The player's YouTube channel |
 | 21* | accIcon | **Integer** | The ID of the player's cube |
 | 22* | accShip | **Integer** | The ID of the player's ship |
@@ -74,6 +74,8 @@ Each `key` is tied to a component within the client and the `value` sets data fo
 | 59* | instagram | **String** | The player's Instagram username |
 | 60* | tiktok | **String** | The player's TikTok handle |
 | 61* | custom | **String** | The player's custom one-time authentication token |
+| 62* | groupState | **Integer** | Who can invite the player to groups. 1 = Friends, 2 = None |
+| 63* | gO | **Integer** | Unknown. Seemingly related to the gO parameter in [updateGJAccSettings20](/endpoints/accounts/updateGJAccSettings20) |
 | 64  | friendsSince | **Integer** | The unix timestamp representing the amount of time you've been friends with this player |
 | 67* | followers | **Integer** | The amount of people following this account
 | 68* | following | **Integer** | How many accounts you follow. Can only be fetched for yourself (requires your own gjp2)
