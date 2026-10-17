@@ -679,6 +679,10 @@ export default [
         "link": "/topics/cdn_token"
       },
       {
+        "text": "Custom Error Messages",
+        "link": "/topics/custom_error"
+      },
+      {
         "text": "GJP",
         "link": "/topics/gjp"
       },
