@@ -11,7 +11,7 @@ This endpoint is used to search editor sound packs by name and / or type
 | `binaryVersion` | <ParamDesc name="binaryVersion"/> |  | <!--a-->
 | `accountID`     | <ParamDesc name="accountID"/> |  | <!--a-->
 | `gjp2`          | <ParamDesc name="gjp2"/> |  | <!--a-->
-| `str`           | Search query, user ID or level list depending on `type` | Only on [type 5](#type) | <!--a-->
+| `str`           | Search query, user ID or level list depending on `type` | Only on [types 0 and 5](#type) | <!--a-->
 | `type`          | Search type, [see values](#type). Defaults to most liked |  | <!--a-->
 | `page`          | Which page to request, defaults to 0 |  | <!--a-->
 | `star`          | Whether to only return featured editor sound packs, does not seem to be used in game |  | <!--o-->
