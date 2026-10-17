@@ -37,7 +37,7 @@ The values are:
   - 8 - thread was renamed (user1 - the user who renamed the thread)
   - 9 - conversation started by advisor (user1 - the advisor who started the conversation)
   - 10 - conversation started by moderator (user1 - the moderator who started the conversation)
-  - 11 - conversation was closed
+  - 11 - conversation was closed (user1 - the user who closed the conversation, not necessarily specified)
 - User 1 Account ID. User 1 is not specified for type 5 if the ownership was transferred as a result of the previous owner leaving
 - User 1 Username
 - User 2 Account ID. User 2 is not specified for types 3, 7 and 8
