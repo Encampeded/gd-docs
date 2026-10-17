@@ -72,6 +72,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | practiceOpacity | float | The opacity of the practice UI, from 0 to 1 |
 | practicePosX | float | The X position of the practice UI |
 | practicePosY | float | The Y position of the practice UI |
+| newsLastReadID | integer | The ID of the news post you last saw |
 
 ## Legacy Keys
 
