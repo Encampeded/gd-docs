@@ -18,7 +18,7 @@ Perform a wide variety of actions on threads
 | `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
 | `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
 
-::: details `mode` {#reasons open}
+::: details `mode` {#mode open}
 
 | Mode  | Description           | Value Description   |
 | ----- | --------------------- | ------------------- |
