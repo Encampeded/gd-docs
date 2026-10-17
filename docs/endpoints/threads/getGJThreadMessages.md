@@ -1,6 +1,6 @@
 # getGJThreadMessages.php
 
-Gets the messages in a thread. This endpoint has a cooldown of 20 messages per minute
+Gets the messages in a thread
 
 ## Parameters
 
