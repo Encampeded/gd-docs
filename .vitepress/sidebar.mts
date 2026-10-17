@@ -30,6 +30,10 @@ export default [
             "link": "/endpoints/accounts/loginGJAccount"
           },
           {
+            "text": "openedRegister.php",
+            "link": "/endpoints/accounts/openedRegister"
+          },
+          {
             "text": "registerGJAccount.php",
             "link": "/endpoints/accounts/registerGJAccount"
           },
