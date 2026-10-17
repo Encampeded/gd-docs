@@ -40,7 +40,7 @@ Here are some input examples:
 TODO
 
 ## Metadata
-The metadata is comparatively simple. It's a list of 5 values separated by `,`. The values are:
+The metadata is comparatively simple. It's a list of 6 values separated by `,`. The values are:
 
 `randomSeed,attempts,gameVersion,binaryVersion,unknown,itemPersData`
 
