@@ -1,5 +1,8 @@
 # uploadGJMessage20.php
 
+> [!WARNING]
+> This endpoint is deprecated and seems to be always returning `-1` now
+
 Sends a message to a user
 
 ## Parameters
