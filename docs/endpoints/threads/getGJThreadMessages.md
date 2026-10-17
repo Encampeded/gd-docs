@@ -12,6 +12,7 @@ Gets the messages in a thread. This endpoint has a cooldown of 20 messages per m
 | `threadID`      | The ID of the thread to fetch messages from | Yes | <!--a-->
 | `beforeID`      | All fetched messages will be older than this message ID | | <!--a-->
 | `afterID`       | All fetched messages will be newer than this message ID | | <!--a-->
+| `aroundID`      | All fetched messages will be around this message ID. Used when jumping to a message from search | | <!--a-->
 | `mv`            | Unknown, but sent as 0 if this is a request that is refreshing the thread and not sent at all otherwise | | <!--a-->
 | `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
 | `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
