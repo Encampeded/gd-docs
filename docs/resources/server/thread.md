@@ -48,4 +48,4 @@ Values indicated with a dagger (†) are only returned for group threads, and ar
 | 23  | emoteIcon†  	 | **Integer** | The emote icon used for this group thread
 | 24  | lastMessageTimestamp | **Integer** | The UNIX timestamp of the last message
 | 25  | modBadgeLevel?* | **Integer** | Presumably the mod badge of the user on the other end of the thread
-| 26  | unknown		 | **Integer** | Seems to always be 0
+| 26  | kicked?†		 | **Integer** | Seems to be 0 if you are still in the thread, and 8 if you've been removed
