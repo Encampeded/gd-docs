@@ -76,6 +76,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | recentEmotes | string | 16 of your most recently used emotes, separated by commas |
 | editorSFXGlobalVolume | float | The volume for editor SFX |
 | scrollSensitivity | float | The Scroll option in the "Other" settings category |
+| specialPermKey | integer | Unknown, presumably something related to the new mod system |
 
 ## Legacy Keys
 
