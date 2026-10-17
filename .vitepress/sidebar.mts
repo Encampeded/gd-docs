@@ -604,6 +604,10 @@ export default [
             "link": "/resources/server/song"
           },
           {
+            "text": "Thread Object",
+            "link": "/resources/server/thread"
+          },
+          {
             "text": "User Object",
             "link": "/resources/server/user"
           }
