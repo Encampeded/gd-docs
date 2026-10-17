@@ -195,6 +195,7 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0242 | Disable Anchor Snap |
 | gv_0243 | Disable Messaging |
 | gv_0245 | Disable Pinch |
+| gv_0246 | Agreed to Messaging Rules |
 
 # Unlocked Game Variables
 
