@@ -45,7 +45,7 @@ aside: true
     - Total size of audio assets in the editor: `getGJAudioFilesize`
     - Content status: `getGJContentStatus`
     - Registration session token: `openedRegister` returns an `rsession` token used with `registerGJAccount`
-    - 22 moderation endpoints: `adminGetUserHistory`, `adminGetReportedContent`, `adminClearReportedContent`, `adminGetReportQueue`, `adminGetAbuseInfo`, `adminGetAccountReview`, `adminThreadAction`, `adminDeleteUserComments`, `adminCommentBan`, `adminUploadBan`, `adminMessageBan`, `adminFreezeAccount`, `adminTrendingBan`, `adminNameLock`, `adminCommentUnban`, `adminUploadUnban`, `adminCloseCase`, `adminMessageUnban`, `adminUnfreezeAccount`, `adminTrendingUnban`, `adminNameUnlock`, `deleteGJComments`, `muteGJUser`
+    - 22 moderation endpoints: `adminGetUserHistory`, `adminGetReportedContent`, `adminClearReportedContent`, `adminGetReportQueue`, `adminGetAbuseInfo`, `adminGetAccountReview`, `adminThreadAction`, `adminDeleteUserComments`, `adminCommentBan`, `adminUploadBan`, `adminMessageBan`, `adminFreezeAccount`, `adminTrendingBan`, `adminNameLock`, `adminCommentUnban`, `adminUploadUnban`, `adminCloseCase`, `adminMessageUnban`, `adminUnfreezeAccount`, `adminTrendingUnban`, `adminNameUnlock`, `deleteGJComments`
 
 ## 2.2082
 
