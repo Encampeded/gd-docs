@@ -1,6 +1,6 @@
 # getGJMessages20.php
 
-Gets a user's DMs.
+Gets a user's legacy messages.
 
 ## Parameters
 
