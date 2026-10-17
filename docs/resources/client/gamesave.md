@@ -75,6 +75,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | newsLastReadID | integer | The ID of the news post you last saw |
 | recentEmotes | string | A list of your recently used emotes, separated by commas |
 | editorSFXGlobalVolume | float | The volume for editor SFX |
+| scrollSensitivity | float | The Scroll option in the "Other" settings category |
 
 ## Legacy Keys
 
