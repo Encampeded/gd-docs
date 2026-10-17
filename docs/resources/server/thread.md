@@ -37,7 +37,7 @@ Values indicated with a dagger (†) are only returned for group threads, and ar
 | 12    | unknown		   | **Integer** | Seems to always be 0
 | 13    | threadType		 | **Bool** | 0 if this is a group thread and 1 if it's a DM thread
 | 14    | unknown		 | **Integer** | Seems to always be 0
-| 15  | pinned		 | **Integer** | Whether you have pinned the thread or not
+| 15  | pinned		 | **Bool** | Whether you have pinned the thread or not
 | 16  | icon*  	 | **Integer** | The icon ID of the user on the other end of the thread
 | 17  | color1*  	 | **Integer** | The primary color of the user on the other end of the thread
 | 18  | color2*  	 | **Integer** | The secondary color of the user on the other end of the thread
