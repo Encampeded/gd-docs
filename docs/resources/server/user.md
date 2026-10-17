@@ -93,7 +93,7 @@ accountID:userID:username:invitedBy:iconID:color1:color2:color3:iconType:special
 The username is encoded in [base64](/topics/encryption/base64.md). invitedBy is the account ID of the user that invited them.
 
 ### **Thread Former User Object**
-In threads, users who have left are represented similarly to invited users, but with less values. They are as follows:
+In threads, users who have left or have been kicked are represented similarly to invited users, but with less values. They are as follows:
 
 ```
 accountID:userID:username:iconID:color1:color2:color3:iconType:special
