@@ -32,6 +32,7 @@ This endpoint is used to search levels by name and or filter
 | `star`            | Rated filter, either 1 or not sent |  | <!--o: missing/1, mut excl with noStar-->
 | `noStar`          | Unrated filter, either 1 or not sent |  | <!--o: missing/1, mut excl with star-->
 | `demonFilter`     | Selects which demon difficulty to search, [see values](#demon-filter). If not sent will search all demon types |  | <!--o-->
+| `hypeSecret`      | Parameter that is sent by the game as `1` for type=31 (hyped). Does not seem to do anything though |  | <!--a-->
 | `followed`        | Comma separated list of the followed account IDs | Only on [type 12](#type) | <!--*/o-->
 | `completedLevels` | Comma separated list of completed level IDs surrounded by `()` | Only when using (un)completed filters |  | <!--*/o: sent only when required-->
 
@@ -66,6 +67,10 @@ This endpoint is used to search levels by name and or filter
 | `27` | Sent                                                                                                                            |
 | `28` | GD Lite weekly levels                                                                                                           |
 | `29` | GD Lite bonus levels (platformer)                                                                                               |
+| `31` | Hyped                                                                                                                           |
+| `32` | Daily history (without the most recent daily)                                                                                   |
+| `33` | Weekly history (without the most recent weekly)                                                                                 |
+| `34` | Event history (without the most recent event)                                                                                   |
 
 :::
 
