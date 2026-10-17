@@ -68,9 +68,9 @@ This endpoint is used to search levels by name and or filter
 | `28` | GD Lite weekly levels                                                                                                           |
 | `29` | GD Lite bonus levels (platformer)                                                                                               |
 | `31` | Hyped                                                                                                                           |
-| `32` | Daily history (without the most recent daily)                                                                                   |
-| `33` | Weekly history (without the most recent weekly)                                                                                 |
-| `34` | Event history (without the most recent event)                                                                                   |
+| `32` | Daily history (without the current daily)                                                                                       |
+| `33` | Weekly history (without the current weekly)                                                                                     |
+| `34` | Event history (without the current event level)                                                                                 |
 
 :::
 
