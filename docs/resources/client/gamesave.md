@@ -74,6 +74,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | practicePosY | float | The Y position of the practice UI |
 | newsLastReadID | integer | The ID of the news post you last saw |
 | recentEmotes | string | A list of your recently used emotes, separated by commas |
+| editorSFXGlobalVolume | float | The volume for editor SFX |
 
 ## Legacy Keys
 
