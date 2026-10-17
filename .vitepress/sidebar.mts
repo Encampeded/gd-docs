@@ -588,7 +588,7 @@ export default [
             "link": "/resources/server/mappack"
           },
           {
-            "text": "Message Object",
+            "text": "Message Object (Legacy)",
             "link": "/resources/server/message"
           },
           {
@@ -606,6 +606,10 @@ export default [
           {
             "text": "Thread Object",
             "link": "/resources/server/thread"
+          },
+          {
+            "text": "Thread Message Object",
+            "link": "/resources/server/threadmessage"
           },
           {
             "text": "User Object",
