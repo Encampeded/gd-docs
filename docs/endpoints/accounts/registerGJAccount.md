@@ -13,6 +13,7 @@ This endpoint is used to register an account. In 2.2, it was replaced with [regi
 | `password` | The password of the account to create               | Yes      |
 | `email`    | The email of the account to create                  | Yes      |
 | `secret`   | <ParamDesc name="secret" type="account"/> | Yes      |
+| `rsession`   | The session token for registering an account, obtained from [openedRegister.php](/endpoints/accounts/openedRegister) | Yes      |
 
 ## Response
 
