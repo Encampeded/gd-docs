@@ -44,8 +44,28 @@ Values indicated with a dagger (†) are only returned for group threads, and ar
 | 19  | color3*  	 | **Integer** | The glow color of the user on the other end of the thread
 | 20  | iconType*  	 | **Integer** | The icon type of the user on the other end of the thread
 | 21  | special*  	 | **Integer** | Whether this person has glow enabled
-| 22  | description†  	 | **Integer** | The description of this group thread encoded in [Base64](/topics/encryption/base64.md)
-| 23  | emoteIcon†  	 | **Integer** | The emote icon used for this group thread
+| 22  | description†  	 | **String** | The description of this group thread encoded in [Base64](/topics/encryption/base64.md)
+| 23  | emoteIcon†  	 | **String** | The emote icon used for this group thread
 | 24  | lastMessageTimestamp | **Integer** | The UNIX timestamp of the last message
 | 25  | modBadgeLevel?* | **Integer** | Presumably the mod badge of the user on the other end of the thread
 | 26  | status		 | **Integer** | 2 if the thread is pending, 8 if you've been kicked from the thread, 0 otherwise
+
+### Thread Metadata
+
+In the getGJThreadMessages.php endpoint, a more limited set of values is returned as one of the segments. They are as follows:
+
+| Index | Name/Value  | Type | Description |
+| ----- | ----------- | ---- | ----------- |
+| 1     | threadID      | **Integer** | The thread ID
+| 2     | unknown     | **Integer** | Seems to always be 0
+| 3     | memberCount     | **Integer** | The amount of members in the group
+| 4     | description        | **String** | The description of this group thread encoded in [Base64](/topics/encryption/base64.md)
+| 5     | mv   | **Integer** | The value used in the `mv` key which is sent when refreshing the messages. What it does is currently unknown
+| 6     | showLoadEarlier | **Bool** | Whether Show Earlier button should be shown prematurely
+| 7     | unknown   | **Integer** | Seems to always be 0
+| 8     | unknown		   | **Integer** | Seems to always be 0
+| 9     | title | **String** | The title of the group thread encoded in [Base64](/topics/encryption/base64.md)
+| 10    | locked	   | **Bool** | Whether the thread is locked or not
+| 11    | unknown		   | **Bool** | Seems to always be 0
+
+`{threadID}:0:{memberCount}:{description}:{mv}:{shwoL`
