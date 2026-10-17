@@ -46,7 +46,7 @@ The metadata is comparatively simple. It's a list of 5 values separated by `,`. 
 
 - Random Seed is the seed used for random triggers on the attempt of the replay.
 - Attempts is NOT the total amount of attempts, just the amount of attempts the replay took
-- gameVersion and binaryVersion are the same as what the game sends to the servers. Currently `22` and `47` (`48` on mobile) respectively.
+- gameVersion and binaryVersion are the same as what the game sends to the servers. Currently `22` and `51` respectively.
 - The next value is unknown and seems to always be 1
 - The Item Pers data stores information about item and timer IDs that have been made persistent with the Item Pers trigger
 
