@@ -278,6 +278,14 @@ export default [
             "link": "/endpoints/socials/downloadGJMessage20"
           },
           {
+            "text": "followGJUser.php",
+            "link": "/endpoints/comments/followGJUser"
+          },
+          {
+            "text": "getGJFollowing.php",
+            "link": "/endpoints/comments/getGJFollowing"
+          },
+          {
             "text": "getGJFriendRequests20.php",
             "link": "/endpoints/socials/getGJFriendRequests20"
           },
@@ -290,6 +298,10 @@ export default [
             "link": "/endpoints/socials/getGJUserList20"
           },
           {
+            "text": "muteGJUser.php",
+            "link": "/endpoints/comments/muteGJUser"
+          },
+          {
             "text": "readGJFriendRequest20.php",
             "link": "/endpoints/socials/readGJFriendRequest20"
           },
@@ -300,6 +312,10 @@ export default [
           {
             "text": "unblockGJUser20.php",
             "link": "/endpoints/socials/unblockGJUser20"
+          },
+          {
+            "text": "unfollowGJUser.php",
+            "link": "/endpoints/comments/unfollowGJUser"
           },
           {
             "text": "uploadFriendRequest20.php",
@@ -322,6 +338,10 @@ export default [
           {
             "text": "getGJSongInfo.php",
             "link": "/endpoints/songs/getGJSongInfo"
+          },
+          {
+            "text": "getGJSongUsage.php",
+            "link": "/endpoints/songs/getGJSongUsage"
           },
           {
             "text": "getGJTopArtists.php",
@@ -536,6 +556,10 @@ export default [
             "link": "/resources/server/comment"
           },
           {
+            "text": "Editor SFX Pack Object",
+            "link": "/resources/server/editorsfx"
+          },
+          {
             "text": "Friend Request Object",
             "link": "/resources/server/friendrequest"
           },
@@ -566,6 +590,10 @@ export default [
           {
             "text": "Message Object",
             "link": "/resources/server/message"
+          },
+          {
+            "text": "Notification Object",
+            "link": "/resources/server/notification"
           },
           {
             "text": "Restore Object",
