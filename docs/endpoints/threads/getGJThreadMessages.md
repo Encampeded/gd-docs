@@ -24,18 +24,18 @@ Gets the messages in a thread. This endpoint has a cooldown of 20 messages per m
 A successful request will return the data in the format
 
 ```
-{messages}#{members}#{unk}#{invites}#{metadata}#{lastMessageID}#{unk2}
+{messages}#{members}#{formerMembers}#{invites}#{metadata}#{lastMessageID}#{unk2}
 ```
 
 where:
 
 - `{messages}` is a list of [Thread Message Objects](/resources/server/threadmessage) separated by pipes `|`. If no messages were fetched, this segment is returned as `none`
 - `{members}` is a list of [User Objects](/resources/server/user) of all the members, separated by pipes `|`
-- `{unk}` is unknown and always seems to be empty
+- `{formerMembers}` is a list of [Thread Former User Objects](/resources/server/user#thread-former-user-object) of members that left or were kicked, separated by pipes `|`
 - `{invites}` is a list of [Thread Invite User Objects](/resources/server/user#thread-invite-user-object) of all the users wh0 currently have pending invites, separated by pipes `|`
 - `{metadata}` is a [Thread Metadata Object](/resources/server/thread#thread-metadata)
 - `{lastMessageID}` is the last message ID you can see before you were removed from the group thread. If you are still in the thread, it's set to 0
-- `{unk2}` is unknown and always seems to be `3,1,10,50`. The `50` is likely how many messages can be loaded at once
+- `{unk}` is unknown and always seems to be `3,1,10,50`. The `50` is likely how many messages can be loaded at once
 
 ## Example
 
