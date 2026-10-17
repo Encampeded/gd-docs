@@ -24,7 +24,7 @@ Gets the messages in a thread. This endpoint has a cooldown of 20 messages per m
 A successful request will return the data in the format
 
 ```
-{messages}#{members}#{unk}#{invites}#{metadata}#{unk2}#{unk3}
+{messages}#{members}#{unk}#{invites}#{metadata}#{lastMessageID}#{unk3}
 ```
 
 where:
@@ -34,7 +34,7 @@ where:
 - `{unk}` is unknown and always seems to be empty
 - `{invites}` is a list of [Thread Invite User Objects](/resources/server/user#thread-invite-user-object) of all the users wh0 currently have pending invites, separated by pipes `|`
 - `{metadata}` is a [Thread Metadata Object](/resources/server/threadmessage)
-- `{unk2}` is unknown and always seems to be 0
+- `{lastMessageID}` is the last message ID you can see before you were removed from the group thread. If you are still in the thread, it's set to 0
 - `{unk3}` is unknown and always seems to be `3,1,10,50`. The `50` is likely how many messages can be loaded at once
 
 ## Example
