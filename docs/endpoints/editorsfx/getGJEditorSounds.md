@@ -1,6 +1,6 @@
 # getGJEditorSounds.php
 
-This endpoint is used to search level lists by name and / or filter
+This endpoint is used to search editor sound packs by name and / or type
 
 ## Parameters
 
