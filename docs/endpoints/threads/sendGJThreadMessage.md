@@ -1,0 +1,57 @@
+# sendGJThreadMessage.php
+
+Gets the messages in a thread. This endpoint has a cooldown of 20 messages per minute
+
+## Parameters
+
+| Parameter       | Explanation | Required |
+| --------------- | ----------- | -------- |
+| `accountID`     | <ParamDesc name="accountID"/> | Yes      | <!--a-->
+| `gjp2`          | <ParamDesc name="gjp2"/> | Yes      | <!--a-->
+| `secret`        | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
+| `threadID`      | The ID of the thread to send a message to | Yes | <!--a-->
+| `body`          | The message body, converted to [URL-safe base64](/topics/encryption/base64) | Yes | <!--a-->
+| `token`         | Sent as the current UNIX timestamp (in seconds) left-shifted by 0x14 (20) | | <!--a-->
+| `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
+| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
+| `udid`          | <ParamDesc name="udid"/> |          | <!--a-->
+| `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
+| `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
+
+## Response
+  
+Returns the thread ID and message ID separated by a colon `:` if the message was successfully posted.
+
+If you are not in the thread, returns a Customized Error Message with the title "Group Chat" and body "You are no longer in this group chat."
+
+If the thread does not exist or there's another issue with your request, returns `-1`
+
+## Example
+
+<!-- tabs:start -->
+
+### **Python**
+
+```py
+import requests
+
+# This code gets the messages from a thread
+
+data = {
+    "accountID": 26068292, # GMDAntiMatter's account ID
+    "gjp2": "********", # This would be GMDAntiMatter's password encoded with GJP2 encryption
+    "secret": "Wmfd2893gb7",
+    "body": "SGVsbG8gZnJvbSB0aGUgR0QgRG9jcyE=",
+    "threadID": 77519  
+}
+
+req = requests.post("https://www.boomlings.com/database/sendGJThreadMessage.php", data=data)
+print(req.text)
+```
+
+**Response**
+```plain
+77519:708508
+```
+
+<!-- tabs:end -->
