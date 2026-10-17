@@ -83,6 +83,15 @@ Each `key` is tied to a component within the client and the `value` sets data fo
 
 Keys indicated with an asterisk (*) are only returned from the [getGJUserInfo20](/endpoints/users/getGJUserInfo20) endpoint. Conversely, keys 6, 9, 14, & 15 are only returned by user search endpoints ([getGJUsers20](/endpoints/users/getGJUsers20), [getGJScores20](/endpoints/users/getGJScores20)). Key 64 is only returned by endpoint [getGJUserList20](/endpoints/socials/getGJUserList20).
 
+### **Thread Invite User Object**
+In threads, users who are invited to the group but haven't accepted the invite yet are represented differently than regular user objects. They do not use `key:value:key:value` pairings, and instead are a fixed list of values separated by colons `:`. The values are as follows:
+
+```
+accountID:userID:username:invitedBy:iconID:color1:color2:color3:iconType:special:stars:moons:demons:secretCoins:userCoins:diamonds:friendsSince
+```
+
+The username is encoded in [base64](/topics/encryption/base64.md). invitedBy is the account ID of the user that invited them.
+
 ### Trivia
 
 - Setting Key `29` to `0` stops most aspects of your profile from loading
