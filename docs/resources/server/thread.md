@@ -48,7 +48,7 @@ Values indicated with a dagger (†) are only returned for group threads, and ar
 | 23  | emoteIcon†  	 | **String** | The emote icon used for this group thread
 | 24  | lastMessageTimestamp | **Integer** | The UNIX timestamp of the last message
 | 25  | modBadgeLevel?* | **Integer** | Presumably the mod badge of the user on the other end of the thread
-| 26  | status		 | **Integer** | 2 if the thread is pending, 8 if you've been kicked from the thread, 0 otherwise
+| 26  | status		 | **Integer** | Thread status. 0 - default, 2 - pending, 4 - this user only accepts messages from friends, 5 - this user does not accept messages, 8 - removed (kicked from group thread)
 
 ### Thread Metadata
 
