@@ -1,5 +1,8 @@
 # reportGJLevel.php
 
+> [!WARNING]
+> This endpoint is deprecated. While it still works as usual, that may not be the case in the future and the reports made using this endpoint are likely to go nowhere
+
 Reports a level
 
 ## Parameters
