@@ -48,7 +48,7 @@ Values indicated with a dagger (†) are only returned for group threads, and ar
 | 23  | emoteIcon†  	 | **String** | The emote icon used for this group thread
 | 24  | lastMessageTimestamp | **Integer** | The UNIX timestamp of the last message
 | 25  | modBadgeLevel?* | **Integer** | Presumably the mod badge of the user on the other end of the thread
-| 26  | status		 | **Integer** | Thread status. 0 - default, 2 - pending, 4 - this user only accepts messages from friends, 5 - this user does not accept messages, 8 - removed (kicked from group thread)
+| 26  | status		 | **Integer** | Thread status. 0 - default, 2 - pending, 4 - this user only accepts messages from friends, 5 - this user does not accept messages, 7 - one of the users has the other one blocked, 8 - removed (kicked from group thread)
 
 ### Thread Invite Object
 In the getGJThreadMessages.php endpoint, a different set of values is returned. They are as follows:
