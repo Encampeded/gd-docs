@@ -26,7 +26,7 @@ Sends a message in an existing thread or starts a new thread. This endpoint has 
 
 ## Response
   
-Returns the thread ID and message ID separated by a colon `:` if the message was successfully posted.
+Returns the thread ID and message ID separated by a colon `:` if the message was successfully posted. If you started a new DM thread, there will be an extra value that always seems to be `0`. If you started a new group thread, there will be 2 extra values: the amount of people you invited and a value that always seems to be `0`.
 
 If you are not in the thread, returns a Customized Error Message with the title "Group Chat" and body "You are no longer in this group chat."
 
