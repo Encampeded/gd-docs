@@ -279,11 +279,11 @@ export default [
           },
           {
             "text": "followGJUser.php",
-            "link": "/endpoints/comments/followGJUser"
+            "link": "/endpoints/socials/followGJUser"
           },
           {
             "text": "getGJFollowing.php",
-            "link": "/endpoints/comments/getGJFollowing"
+            "link": "/endpoints/socials/getGJFollowing"
           },
           {
             "text": "getGJFriendRequests20.php",
@@ -299,7 +299,7 @@ export default [
           },
           {
             "text": "muteGJUser.php",
-            "link": "/endpoints/comments/muteGJUser"
+            "link": "/endpoints/socials/muteGJUser"
           },
           {
             "text": "readGJFriendRequest20.php",
@@ -315,7 +315,7 @@ export default [
           },
           {
             "text": "unfollowGJUser.php",
-            "link": "/endpoints/comments/unfollowGJUser"
+            "link": "/endpoints/socials/unfollowGJUser"
           },
           {
             "text": "uploadFriendRequest20.php",
