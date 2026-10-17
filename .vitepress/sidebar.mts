@@ -208,6 +208,10 @@ export default [
             "link": "/endpoints/misc/likeGJItem211"
           },
           {
+            "text": "reportGJContent.php",
+            "link": "/endpoints/misc/reportGJContent"
+          },
+          {
             "text": "requestUserAccess.php",
             "link": "/endpoints/misc/requestUserAccess"
           },
