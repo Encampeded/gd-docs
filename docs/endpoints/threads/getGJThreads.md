@@ -1,6 +1,6 @@
 # getGJThreads.php
 
-Gets a user's threads. This is part of the 2.209 message system
+Gets a user's message threads.
 
 ## Parameters
 
