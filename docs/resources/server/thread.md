@@ -13,11 +13,11 @@ Unlike most other server objects, threads do not have a typical `key:value:key:v
 ```
 <!-- tabs:end -->
 
-A list of all known keys can be found in the table below
+A list of all known values can be found in the table below
 
-Keys indicated with an asterisk (*) are only returned for DM threads, and are empty or 0 for group threads
+Values indicated with an asterisk (*) are only returned for DM threads, and are empty or 0 for group threads
 
-Keys indicated with a dagger (†) are only returned for group threads, and are empty or 0 for DM threads
+Values indicated with a dagger (†) are only returned for group threads, and are empty or 0 for DM threads
 
 ### Thread Structure
 
