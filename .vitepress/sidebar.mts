@@ -371,6 +371,40 @@ export default [
         "collapsed": true
       },
       {
+        "text": "Threads",
+        "items": [
+          {
+            "text": "getGJThreadInvites.php",
+            "link": "/endpoints/threads/getGJThreadInvites"
+          },
+          {
+            "text": "getGJThreadMembers.php",
+            "link": "/endpoints/threads/getGJThreadMembers"
+          },
+          {
+            "text": "getGJThreadMessages.php",
+            "link": "/endpoints/threads/getGJThreadMessages"
+          },
+          {
+            "text": "getGJThreads.php",
+            "link": "/endpoints/threads/getGJThreads"
+          },
+          {
+            "text": "searchGJThreadMessages.php",
+            "link": "/endpoints/threads/searchGJThreadMessages"
+          },
+          {
+            "text": "sendGJThreadMessage.php",
+            "link": "/endpoints/threads/sendGJThreadMessage"
+          },
+          {
+            "text": "updateGJThread.php",
+            "link": "/endpoints/threads/updateGJThread"
+          }
+        ],
+        "collapsed": true
+      },
+      {
         "text": "Users",
         "items": [
           {
