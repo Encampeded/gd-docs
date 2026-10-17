@@ -19,7 +19,7 @@ Keys indicated with an asterisk (*) are only returned for DM threads, and are em
 
 Keys indicated with a dagger (†) are only returned for group threads, and are empty or 0 for DM threads
 
-### Notification Structure
+### Thread Structure
 
 | Index | Name/Value  | Type | Description |
 | ----- | ----------- | ---- | ----------- |
