@@ -1,6 +1,6 @@
 # getGJFriendRequests20.php
-
-This endpoint is to fetch friend requests recieved by other users
+  
+This endpoint fetches friend requests received by other users
 
 ## Parameters
 
@@ -16,7 +16,7 @@ This endpoint is to fetch friend requests recieved by other users
 | `dvs`           | <ParamDesc name="dvs"/> |  | <!--a-->
 | `page`          | Which page of requests you want |  | <!--a-->
 | `total`         | Probably the cached total number of friend requests recieved, default is `0` |  | <!--a-->
-| `getSent`       | `1` if the server should fetch requests sent by the player |  | <!--optional-->
+| `getSent`       | `1` if the server should fetch requests sent by the player, `2` if the server should fetch ignored friend requests |  | <!--optional-->
 
 ## Response
 
