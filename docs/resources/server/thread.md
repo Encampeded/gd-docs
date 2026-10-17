@@ -35,7 +35,7 @@ Values indicated with a dagger (†) are only returned for group threads, and ar
 | 10    | ownerID	   | **Integer** | The account ID of the user who owns this thread
 | 11    | muted		   | **Bool** | Whether you have muted the thread or not
 | 12    | unknown		   | **Integer** | Seems to always be 0
-| 13    | threadType?		 | **Bool** | Unknown, but seems to be 0 if this is a group thread and 1 if it's a DM thread
+| 13    | threadType		 | **Bool** | 0 if this is a group thread and 1 if it's a DM thread
 | 14    | unknown		 | **Integer** | Seems to always be 0
 | 15  | pinned		 | **Integer** | Whether you have pinned the thread or not
 | 16  | icon*  	 | **Integer** | The icon ID of the user on the other end of the thread
@@ -48,4 +48,4 @@ Values indicated with a dagger (†) are only returned for group threads, and ar
 | 23  | emoteIcon†  	 | **Integer** | The emote icon used for this group thread
 | 24  | lastMessageTimestamp | **Integer** | The UNIX timestamp of the last message
 | 25  | modBadgeLevel?* | **Integer** | Presumably the mod badge of the user on the other end of the thread
-| 26  | kicked?†		 | **Integer** | Seems to be 0 if you are still in the thread, and 8 if you've been removed
+| 26  | status		 | **Integer** | 2 if the thread is pending, 8 if you've been kicked from the thread, 0 otherwise
