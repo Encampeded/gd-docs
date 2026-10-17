@@ -12,6 +12,7 @@ Gets a user's message threads.
 | `page`          | The page of threads you want to fetch, starting from 0. Defaults to the first if left out |       | <!--a-->
 | `filter`        | Which threads to show: 0 for all (default), 1 for DM, 2 for Group |       | <!--a-->
 | `removed`       | Unknown, always sent as 1 |       | <!--a-->
+| `user`          | Filter for threads that have these users. Comma-separated list of account IDs |       | <!--a-->
 | `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
 | `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
 | `udid`          | <ParamDesc name="udid"/> |          | <!--a-->
