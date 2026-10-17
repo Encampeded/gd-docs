@@ -21,14 +21,14 @@ Gets the members of a thread. You can use this for threads you are a member of a
 A successful request will return the data in the format
 
 ```
-{members}#{unk}#{invites}
+{members}#{formerMembers}#{invites}
 ```
 
 where:
 
 - `{members}` is a list of [User Objects](/resources/server/user) of all the members, separated by pipes `|`
-- `{unk}` is unknown and always seems to be empty
-- `{invites}` is a list of [Thread Invite User Objects](/resources/server/user#thread-invite-user-object) of all the us
+- `{formerMembers}` is a list of [Thread Former User Objects](/resources/server/user#thread-former-user-object) of members that left or were kicked, separated by pipes `|`
+- `{invites}` is a list of [Thread Invite User Objects](/resources/server/user#thread-invite-user-object) of all the users that have been invited
 
 ## Example
 
