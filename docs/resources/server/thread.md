@@ -33,11 +33,11 @@ Values indicated with a dagger (†) are only returned for group threads, and ar
 | 8     | members		   | **Integer** | The amount of members in the thread
 | 9     | lastSenderUsername | **String** | The username of the person who sent the last message encoded in [Base64](/topics/encryption/base64.md)
 | 10    | ownerID	   | **Integer** | The account ID of the user who owns this thread
-| 11    | unknown		   | **Integer** | Seems to always be 0
+| 11    | muted		   | **Bool** | Whether you have muted the thread or not
 | 12    | unknown		   | **Integer** | Seems to always be 0
 | 13    | threadType?		 | **Bool** | Unknown, but seems to be 0 if this is a group thread and 1 if it's a DM thread
 | 14    | unknown		 | **Integer** | Seems to always be 0
-| 15  | unknown		 | **Integer** | Seems to always be 0
+| 15  | pinned		 | **Integer** | Whether you have pinned the thread or not
 | 16  | icon*  	 | **Integer** | The icon ID of the user on the other end of the thread
 | 17  | color1*  	 | **Integer** | The primary color of the user on the other end of the thread
 | 18  | color2*  	 | **Integer** | The secondary color of the user on the other end of the thread
