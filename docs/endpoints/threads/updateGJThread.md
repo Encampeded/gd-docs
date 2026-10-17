@@ -34,7 +34,7 @@ Perform a wide variety of actions on threads
 | `10`  | Mute/unmute thread    | 1 (`MQ==`) to mute, 0 (`MA==`) to unmute | 
 | `11`  | Take back invite      | Account ID of the person you want to take back the invite for | 
 | `12`  | Delete message        | The message ID | 
-| `13`  | Limit invites         | 1 (`MQ==`) for Owner Only, 0 (`MA==`) for Anyone | 
+| `13`  | Invite permissions    | 1 (`MQ==`) for Owner Only, 0 (`MA==`) for Anyone | 
 | `14`  | Change description    | The new description | 
 | `15`  | Pin/unpin thread      | 1 (`MQ==`) to pin, 0 (`MA==`) to unpin |
 | `16`  | Change emote icon     | The new emote to use as the icon | 
