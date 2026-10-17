@@ -50,6 +50,33 @@ Values indicated with a dagger (†) are only returned for group threads, and ar
 | 25  | modBadgeLevel?* | **Integer** | Presumably the mod badge of the user on the other end of the thread
 | 26  | status		 | **Integer** | Thread status. 0 - default, 2 - pending, 4 - this user only accepts messages from friends, 5 - this user does not accept messages, 8 - removed (kicked from group thread)
 
+### Thread Invite Object
+In the getGJThreadMessages.php endpoint, a different set of values is returned. They are as follows:
+
+| Index | Name/Value  | Type | Description |
+| ----- | ----------- | ---- | ----------- |
+| 1     | threadID      | **Integer** | The thread ID
+| 2     | accountID     | **Integer** | The account ID of the user who invited you
+| 3     | username     | **String** | The username of the user who invited you encoded in [Base64](/topics/encryption/base64.md)
+| 4     | title        | **String** | The title of the group thread encoded in [Base64](/topics/encryption/base64.md)
+| 5     | unknown   | **Integer** | Seems to always be 1
+| 6     | inviteAge | **String** | How long ago you were invited (e.g. "1 hour")
+| 7     | lastMessage   | **String** | How long ago the last message in the thread was sent (e.g. "13 hours")
+| 8     | unknown		   | **String** | Seems to always be empty
+| 9     | description | **String** | The description of the thread encoded in [Base64](/topics/encryption/base64.md)
+| 10    | unknown	   | **Integer** | Seems to always be 0
+| 11    | muted		   | **Bool** | Whether you have muted the thread or not
+| 12    | unknown		   | **Integer** | Seems to always be 0
+| 13    | ignoredInvite		 | **Bool** | Whether you have ignored this invite
+| 14  | icon  	 | **Integer** | The icon ID of the user who invited you
+| 15  | color1  	 | **Integer** | The primary color of the user who invited you
+| 16  | color2  	 | **Integer** | The secondary color of the user who invited you
+| 17  | color3  	 | **Integer** | The glow color of the user who invited you
+| 18  | iconType 	 | **Integer** | The icon type of the user who invited you
+| 19  | special 	 | **Integer** | The special value of the user who invited you
+| 20  | emoteIcon 	 | **String** | The emote icon used for this group thread
+| 21  | inviteTimestamp 	 | **Integer** | The UNIX timestamp of when you were invited
+
 ### Thread Metadata
 
 In the getGJThreadMessages.php endpoint, a more limited set of values is returned as one of the segments. They are as follows:
