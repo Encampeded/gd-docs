@@ -32,7 +32,7 @@ where:
 - `{messages}` is a list of [Thread Message Objects](/resources/server/threadmessage) separated by pipes `|`. If no messages were fetched, this segment is returned as `none`
 - `{members}` is a list of [User Objects](/resources/server/user) of all the members, separated by pipes `|`
 - `{unk}` is unknown and always seems to be empty
-- `{invites}` is a list of [Invite User Objects](/resources/server/inviteuser) of all the users wh0 currently have pending invites, separated by pipes `|`
+- `{invites}` is a list of Invite User Objects of all the users wh0 currently have pending invites, separated by pipes `|`
 - `{metadata}` is a [Thread Metadata Object](/resources/server/threadmessage)
 - `{unk2}` is unknown and always seems to be 0
 - `{unk3}` is unknown and always seems to be `3,1,10,50`. The `50` is likely how many messages can be loaded at once
