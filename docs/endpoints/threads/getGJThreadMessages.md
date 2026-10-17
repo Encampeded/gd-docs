@@ -24,7 +24,7 @@ Gets the messages in a thread. This endpoint has a cooldown of 20 messages per m
 A successful request will return the data in the format
 
 ```
-{messages}#{members}#{formerMembers}#{invites}#{metadata}#{lastMessageID}#{unk2}
+{messages}#{members}#{formerMembers}#{invites}#{metadata}#{lastMessageID}#{unk}
 ```
 
 where:
