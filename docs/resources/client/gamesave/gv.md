@@ -169,11 +169,22 @@ Game Variables (gvs) are found inside of the [ValueKeeper](/resources/client/gam
 | gv_0191 | Legacy Move Menu |
 | gv_0196 | Disable Player Trail |
 | gv_0197 | Disable Wave Trail |
+| gv_0200 | Local Markers |
+| gv_0201 | Disable Anim (death markers) |
+| gv_0202 | Global Markers |
 | gv_0203 | Disable Auto Creator Controls |
+| gv_0204 | Switch Color (death markers) |
+| gv_0205 | Death Marker Frequency Slider |
+| gv_0206 | Disable Sound (death markers) |
+| gv_0207 | Disable Markers |
+| gv_0208 | Hide Labels (death markers) |
+| gv_0210 | Limited Labels (death markers) |
+| gv_0211 | Death Marker Duration Slider |
 | gv_0212 | Skip Death Triggers |
 | gv_0213 | Show Hitbox Trail |
 | gv_0214 | Hitbox Trail On Death |
 | gv_0215 | Hitbox Trail (editor) |
+| gv_0216 | Live Practice Markers |
 | gv_0217 | Hitbox Trail Highlight |
 | gv_0218 | Safe Mode |
 | gv_0219 | Offline Mode |
