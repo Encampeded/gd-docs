@@ -12,7 +12,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | ---- | ------------------------------ | ---------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | k1   | Level ID                       | **integer**                                                      | the id of the level                                                              |
 | k2   | Level Name                     | **string**                                                       | the name of the level                                                            |
-| k3   | Description                    | **string**                                                       | the level description, encoded in [base64](https://en.wikipedia.org/wiki/Base64) |
+| k3   | Description                    | **string**                                                       | the level description, encoded in [Base64](/topics/encryption/base64.md)         |
 | k4   | Start Level Object             | **[Start Object String](/resources/client/level-components/level-start.md)** | the inner level string, or the playable level                  |
 | k5   | Creator                        | **[user](/resources/server/user.md)Name**                                        | the name of the level creator                                                    |
 | k6   | UserID                         | **integer**                                                      | The UserID of the level Creator                                                  |
@@ -139,7 +139,6 @@ def generatePlatformerHash(bestTime, bestPoints):
 
 ```
 
-
 **Last Editor State Key/Value Pairs**
 The last editor state key/value pairs contain a few values that indicate the last state of the editor before exiting the editor on that level.
 
@@ -156,6 +155,11 @@ The last editor state key/value pairs contain a few values that indicate the las
 Note that the build tab pages do not depend on the user's button row/column settings. That means, if the settings are changed, the build tab pages will not reflect the correct changes. For example:
 
 The build tab page is 5, and the button settings are 6x2 (default), meaning the currently shown elements range from `5 * 6 * 2` = 60 to `6 * 6 * 2 - 1` = 71 (zero-indexed). If the user changes the button settings to 12x3, the tab page will remain as 5, showing elements ranging from `5 * 12 * 3` = 180 to `6 * 12 * 3 - 1` = 215 (zero-indexed).
+
+#### .gdlvl Format
+As of 2.209, you can export levels to a file in the `.gdlvl` format. This format is essentially the same thing as the unofficial `.gmd` format used by GDShare, just with Gzip compression and [Base64](/topics/encryption/base64.md) applied to the whole file.
+
+When decoded, the format is an XML file containing the aforementioned keys.
 
 ### GDL22
 
