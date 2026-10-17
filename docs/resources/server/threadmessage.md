@@ -22,9 +22,9 @@ The values are as follows:
 
 ### System Messages
 
-System Messages are messages that do not have an author attached, and appear as small text. Their content is a list of 5 values separated by commas `,` and encoded in [Base64](/topics/encryption/base64.md). The values are:
+System Messages are messages that do not have an author attached, and appear as small text. Their content is a list of 5 values separated by commas `,` and encoded in [Base64](/topics/encryption/base64.md). System Messages only exist in Group threads.
 
-System Messages only exist in Group threads.
+The values are:
 
 - Type of system message:
   - 2 - new user joined (user1 - the user who invited them, user2 - the user who joined)
