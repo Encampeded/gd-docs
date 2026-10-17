@@ -34,6 +34,7 @@ The values are:
   - 6 - user invited (user1 - the inviter, user2 - the user that was invited)
   - 7 - description was changed (user1 - the user who changed the description)
   - 8 - thread was renamed (user1 - the user who renamed the thread)
+  - 11 - conversation was closed
 - User 1 Account ID. User 1 is not specified for type 5 if the ownership was transferred as a result of the previous owner leaving
 - User 1 Username
 - User 2 Account ID. User 2 is not specified for types 3, 7 and 8
