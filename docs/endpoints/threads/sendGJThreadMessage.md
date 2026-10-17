@@ -1,6 +1,6 @@
 # sendGJThreadMessage.php
 
-Gets the messages in a thread. This endpoint has a cooldown of 20 messages per minute
+Sends a message in an existing thread or starts a new thread. This endpoint has a cooldown of 20 messages per minute
 
 ## Parameters
 
@@ -9,8 +9,14 @@ Gets the messages in a thread. This endpoint has a cooldown of 20 messages per m
 | `accountID`     | <ParamDesc name="accountID"/> | Yes      | <!--a-->
 | `gjp2`          | <ParamDesc name="gjp2"/> | Yes      | <!--a-->
 | `secret`        | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
-| `threadID`      | The ID of the thread to send a message to | Yes | <!--a-->
-| `body`          | The message body, converted to [URL-safe base64](/topics/encryption/base64) | Yes | <!--a-->
+| `threadID`      | The ID of the thread to send a message to. `0` if starting a new thread | | <!--a-->
+| `body`          | The message body, converted to [URL-safe base64](/topics/encryption/base64) | | <!--a-->
+| `isDM`          | `1` if starting a DM thread | | <!--a-->
+| `toAccountID`   | If starting a DM thread, the account ID of the person the DM thread will be shared with, 0 otherwise | | <!--a-->
+| `subject`       | If starting a group thread, the name of the thread encoded in [URL-safe base64](/topics/encryption/base64) | | <!--a-->
+| `description`   | If starting a group thread, the description of the thread encoded in [URL-safe base64](/topics/encryption/base64) | | <!--a-->
+| `emote`         | If starting a group thread, the emote used as the icon encoded in [URL-safe base64](/topics/encryption/base64) | | <!--a-->
+| `targets`       | If starting a group thread, the account IDs of the people you want to invite, separated by commas and encoded in [URL-safe base64](/topics/encryption/base64) | | <!--a-->
 | `token`         | Sent as the current UNIX timestamp (in seconds) left-shifted by 0x14 (20) | | <!--a-->
 | `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
 | `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
