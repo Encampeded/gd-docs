@@ -83,6 +83,28 @@ export default [
         "collapsed": true
       },
       {
+        "text": "Editor SFX",
+        "items": [
+          {
+            "text": "deleteGJEditorSound.php",
+            "link": "/endpoints/editorsfx/deleteGJEditorSound"
+          },
+          {
+            "text": "downloadGJEditorSound.php",
+            "link": "/endpoints/editorsfx/downloadGJEditorSound"
+          },
+          {
+            "text": "getGJEditorSounds.php",
+            "link": "/endpoints/editorsfx/getGJEditorSounds"
+          },
+          {
+            "text": "uploadGJEditorSound.php",
+            "link": "/endpoints/editorsfx/uploadGJEditorSound"
+          }
+        ],
+        "collapsed": true
+      },
+      {
         "text": "Levels",
         "items": [
           {
