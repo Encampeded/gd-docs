@@ -59,12 +59,12 @@ In the getGJThreadMessages.php endpoint, a different set of values is returned. 
 | 2     | accountID     | **Integer** | The account ID of the user who invited you
 | 3     | username     | **String** | The username of the user who invited you encoded in [Base64](/topics/encryption/base64.md)
 | 4     | title        | **String** | The title of the group thread encoded in [Base64](/topics/encryption/base64.md)
-| 5     | unknown   | **Integer** | Seems to always be 1
+| 5     | members   | **Integer** | Amount of members in the thread
 | 6     | inviteAge | **String** | How long ago you were invited (e.g. "1 hour")
 | 7     | lastMessage   | **String** | How long ago the last message in the thread was sent (e.g. "13 hours")
 | 8     | unknown		   | **String** | Seems to always be empty
 | 9     | description | **String** | The description of the thread encoded in [Base64](/topics/encryption/base64.md)
-| 10    | unknown	   | **Integer** | Seems to always be 0
+| 10    | threadType	   | **Bool** | 0 - group thread, 1 - DM thread
 | 11    | muted		   | **Bool** | Whether you have muted the thread or not
 | 12    | unknown		   | **Integer** | Seems to always be 0
 | 13    | ignoredInvite		 | **Bool** | Whether you have ignored this invite
