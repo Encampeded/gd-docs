@@ -14,7 +14,7 @@ This endpoint is used to fetch which accounts are being followed
 | `udid`          | <ParamDesc name="udid"/> |  | <!--a-->
 | `uuid`          | <ParamDesc name="uuid"/> |  | <!--a-->
 | `dvs`           | <ParamDesc name="dvs"/> |  | <!--a-->
-| `ack`           | Probably whether to refresh the following user list |  | <!--a-->
+| `ack`           | Probably whether to refresh the following user list. Always 1 |  | <!--a-->
 
 ## Response
 
