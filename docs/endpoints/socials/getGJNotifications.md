@@ -21,7 +21,7 @@ Fetches your notifications
 ## Bit Mask
 
 The `mask` parameter represents which notification types are enabled/disabled. As of now there are 6 toggleable notification types:
-  
+
 `XXXXXXXXX365X421`
 
 - 1 - Friend Uploads

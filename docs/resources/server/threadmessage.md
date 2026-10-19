@@ -29,8 +29,8 @@ The values are:
 - Type of system message:
   - 1 - new user added (user1 - the user who added them, user2 - the user that was added). May be unused, or only limited to moderators
   - 2 - new user joined (user1 - the user who invited them, user2 - the user who joined)
-  - 3 - user left (user1 - the user who left) 
-  - 4 - user kicked (user1 - the user who did the kick, user2 - the user that was kicked)  
+  - 3 - user left (user1 - the user who left)
+  - 4 - user kicked (user1 - the user who did the kick, user2 - the user that was kicked)
   - 5 - ownership transferred (user1 - the previous owner, user2 - the new owner)
   - 6 - user invited (user1 - the inviter, user2 - the user that was invited)
   - 7 - description was changed (user1 - the user who changed the description)

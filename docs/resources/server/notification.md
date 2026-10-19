@@ -14,7 +14,7 @@ week:7:0:8:1:9:149867590:10::11:0:12:0:13:0:14:0:15:2171511:16:roadkiller
 ```
 <!-- tabs:end -->
 
-Each `key` is tied to a component within the client and the `value` sets data for the specific component.  
+Each `key` is tied to a component within the client and the `value` sets data for the specific component.
 A list of all known keys can be found in the table below
 
 ### Notification Structure

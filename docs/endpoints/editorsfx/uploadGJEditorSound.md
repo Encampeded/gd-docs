@@ -1,4 +1,4 @@
-# uploadGJEditor Sound.php
+# uploadGJEditorSound.php
 
 Uploads an editor sound pack to the servers
 
@@ -26,7 +26,7 @@ Uploads an editor sound pack to the servers
 ## Response
 
 Returns the ID of the uploaded pack, `-100` if the wrong secret is provided, `-17` if the name contains a swear word, or a [Custom Error Message](/topics/custom_error.md) for other errors.
-  
+
 ## Example
 
 <!-- tabs:start -->

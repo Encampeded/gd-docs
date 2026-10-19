@@ -17,7 +17,7 @@ Gets the members of a thread. You can use this for threads you are a member of a
 | `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
 
 ## Response
-  
+
 A successful request will return the data in the format
 
 ```
@@ -45,7 +45,7 @@ data = {
     "accountID": 26068292, # GMDAntiMatter's account ID
     "gjp2": "********", # This would be GMDAntiMatter's password encoded with GJP2 encryption
     "secret": "Wmfd2893gb7",
-    "threadID": 49028 
+    "threadID": 49028
 }
 
 req = requests.post("https://www.boomlings.com/database/getGJThreadMembers.php", data=data)

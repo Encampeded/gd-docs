@@ -25,7 +25,7 @@ Sends a message in an existing thread or starts a new thread. This endpoint has 
 | `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
 
 ## Response
-  
+
 Returns the thread ID and message ID separated by a colon `:` if the message was successfully posted. If you started a new DM thread, there will be an extra value that always seems to be `0`. If you started a new group thread, there will be 2 extra values: the amount of people you invited and a value that always seems to be `0`.
 
 If you are not in the thread, returns a [Custom Error Message](/topics/custom_error) with the title "Group Chat" and body "You are no longer in this group chat."
@@ -48,7 +48,7 @@ data = {
     "gjp2": "********", # This would be GMDAntiMatter's password encoded with GJP2 encryption
     "secret": "Wmfd2893gb7",
     "body": "SGVsbG8gZnJvbSB0aGUgR0QgRG9jcyE=",
-    "threadID": 77519  
+    "threadID": 77519
 }
 
 req = requests.post("https://www.boomlings.com/database/sendGJThreadMessage.php", data=data)

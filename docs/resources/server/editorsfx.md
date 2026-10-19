@@ -13,11 +13,11 @@ Each `key` is tied to a component within the client and the `value` sets data fo
 A list of all known keys can be found in the table below
 
 #### List Structure
-| Key | Name/Value | Type | Description 
+| Key | Name/Value | Type | Description
 |-----|------------|------|-------------
 | 1   | soundID | **Integer** | The ID of the pack
 | 2   | soundName | **String** | The name of the pack
-| 3   | description | **String** | The pack description, encoded in [base64](/topics/encryption/base64.md) 
+| 3   | description | **String** | The pack description, encoded in [base64](/topics/encryption/base64.md)
 | 5   | version | **Integer** | The version of the pack published
 | 7   | difficulty | **Integer** | The difficulty face for the list. -1 = N/A, 0 = Auto, 1 = Easy, 2 = Normal, 3 = Hard, 4 = Harder, 5 = Insane, 6 = Easy Demon, 7 = Medium Demon, 8 = Hard Demon, 9 = Insane Demon, 10 = Extreme Demon
 | 10  | downloads | **Integer** | The amount of times the pack has been downloaded

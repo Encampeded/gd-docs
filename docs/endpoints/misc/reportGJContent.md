@@ -19,14 +19,14 @@ Reports a level, list, comment, profile post, user, friend request, message, thr
 
 | ID   | In-Game Name          | Applicable to Types |
 | ---- | --------------------- | ------------------- |
-| `0`  | Inappropriate Content | All | 
-| `1`  | Harassment / Hate     | All | 
-| `2`  | Spam / Trolling       | All | 
-| `3`  | Scam / Phishing       | 0, 1, 2, 3, 4, 5, 6, 7, 8 | 
-| `4`  | Cheating / Hacking    | 0 | 
-| `5`  | Impersonation         | 0 | 
-| `6`  | Stolen / Reupload     | 1, 2, 9 | 
-| `7`  | Threats / Danger      | 0, 1, 2, 3, 4, 5, 6, 7, 8 | 
+| `0`  | Inappropriate Content | All |
+| `1`  | Harassment / Hate     | All |
+| `2`  | Spam / Trolling       | All |
+| `3`  | Scam / Phishing       | 0, 1, 2, 3, 4, 5, 6, 7, 8 |
+| `4`  | Cheating / Hacking    | 0 |
+| `5`  | Impersonation         | 0 |
+| `6`  | Stolen / Reupload     | 1, 2, 9 |
+| `7`  | Threats / Danger      | 0, 1, 2, 3, 4, 5, 6, 7, 8 |
 
 :::
 

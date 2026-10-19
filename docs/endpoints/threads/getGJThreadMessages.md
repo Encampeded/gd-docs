@@ -21,7 +21,7 @@ Gets the messages in a thread
 | `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
 
 ## Response
-  
+
 A successful request will return the data in the format
 
 ```
@@ -53,7 +53,7 @@ data = {
     "accountID": 26068292, # GMDAntiMatter's account ID
     "gjp2": "********", # This would be GMDAntiMatter's password encoded with GJP2 encryption
     "secret": "Wmfd2893gb7",
-    "threadID": 77519  
+    "threadID": 77519
 }
 
 req = requests.post("https://www.boomlings.com/database/getGJThreadMessages.php", data=data)

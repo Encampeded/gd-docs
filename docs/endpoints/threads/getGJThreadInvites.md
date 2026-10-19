@@ -16,7 +16,7 @@ Gets your current thread invites
 | `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
 
 ## Response
-  
+
 A list of [Thread Invite Objects](/resources/server/thread#thread-invite-object) separated by pipes `|`. or `none` if there are no pending invites
 
 ## Example

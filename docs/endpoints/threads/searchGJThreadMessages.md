@@ -19,7 +19,7 @@ Search messages in a thread for a substring
 | `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
 
 ## Response
-  
+
 A successful request will return the data in the format
 
 ```
