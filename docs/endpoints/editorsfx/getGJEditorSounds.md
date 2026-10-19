@@ -1,6 +1,6 @@
 # getGJEditorSounds.php
 
-This endpoint is used to search editor sound packs by name and / or type
+Searches sound packs by name and/or type.
 
 ## Parameters
 
@@ -14,7 +14,7 @@ This endpoint is used to search editor sound packs by name and / or type
 | `str`           | Search query, user ID or level list depending on `type` | Only on [types 0 and 5](#type) | <!--a-->
 | `type`          | Search type, [see values](#type). Defaults to most liked |  | <!--a-->
 | `page`          | Which page to request, defaults to 0 |  | <!--a-->
-| `star`          | Whether to only return featured editor sound packs, does not seem to be used in game |  | <!--o-->
+| `star`          | Whether to only return featured sound packs, does not seem to be used in game |  | <!--o-->
 | `total`         | Does not seem to affect anything, sent as 0 |  | <!--o-->
 | `count`         | Does not seem to affect anything, sent as 10 |  | <!--o-->
 
@@ -36,15 +36,15 @@ This endpoint is used to search editor sound packs by name and / or type
 
 ## Response
 
-A successful editor sound search will return the data in the format
+A successful sound pack search will return the data in the format
 
 ```
-sfx#creators#page info#hash
+pack#creators#page info#hash
 ```
 
 where:
 
-- `sfx` is a list of [Editor SFX Pack Objects](/resources/server/editorsfx.md)  separated by `|`
+- `pack` is a list of [Sound Pack Objects](/resources/server/editorsfx.md) separated by `|`
 - `creators` is a list of creators separated by `|`, each in the format `userID:username:accountID`
 - `page info` is in the format `total:offset:amount` where:
   - `total` - total number of levels for the query

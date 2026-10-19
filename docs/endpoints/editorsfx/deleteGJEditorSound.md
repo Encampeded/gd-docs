@@ -1,6 +1,6 @@
 # deleteGJEditorSound.php
 
-Deletes an editor sound pack from the server.
+Deletes a sound pack from the server.
 
 ## Parameters
 
@@ -29,7 +29,7 @@ Returns 1 if deleted, -1 if it failed or the pack does not exist.
 ```py
 import requests
 
-# With this code, DevExit is deleting the editor sound pack with ID 53820
+# With this code, DevExit is deleting the sound pack with ID 53820
 headers = {
     "User-Agent": ""
 }

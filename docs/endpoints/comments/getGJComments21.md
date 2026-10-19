@@ -6,10 +6,10 @@ Gets a level or list's comments.
 
 | Parameter       | Explanation | Required |
 | --------------- | ----------- | -------- |
-| `levelID`       | The ID of the level, list or editor SFX pack. Negative if it's a list ID | Yes      | <!--a-->
+| `levelID`       | The ID of the level, list or sound pack. Negative if it's a list ID | Yes      | <!--a-->
 | `page`          | Which page of comments you want to see | Yes      | <!--a-->
 | `secret`        | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
-| `cType`         | If set to 6, `levelID` is a soundpack ID. Not sent otherwise |          | <!--a-->
+| `cType`         | If set to 6, `levelID` is a sound pack ID. Not sent otherwise |          | <!--a-->
 | `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
 | `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
 | `udid`          | <ParamDesc name="udid"/> |          | <!--a-->

@@ -1,6 +1,6 @@
 # downloadGJEditorSound.php
 
-Downloads an editor sound with its data.
+Downloads a sound pack.
 
 ## Parameters
 
@@ -18,7 +18,7 @@ Downloads an editor sound with its data.
 
 ## Response
 
-Returns the [Editor SFX Pack Object](/resources/server/editorsfx.md) along with a constant hash of `f5da5823d94bbe7208dd83a30ff427c7d88fdb99`, separated from the object via a `#`
+Returns the [Sound Pack Object](/resources/server/editorsfx.md) along with a constant hash of `f5da5823d94bbe7208dd83a30ff427c7d88fdb99`, separated from the object via a `#`
 
 ## Example
 

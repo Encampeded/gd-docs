@@ -1,6 +1,6 @@
 # uploadGJEditorSound.php
 
-Uploads an editor sound pack to the servers
+Uploads a sound pack to the servers
 
 ## Parameters
 

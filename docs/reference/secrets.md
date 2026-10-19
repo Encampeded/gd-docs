@@ -114,7 +114,7 @@ There are only 3 endpoints that use the `Level Secret`. The Level Secret is used
 | ------------------------- | ------------- |
 | [https://www.boomlings.com/database/deleteGJLevelUser20.php](/endpoints/levels/deleteGJLevelUser20) | Levels |
 | [https://www.boomlings.com/database/deleteGJLevelList.php](/endpoints/lists/deleteGJLevelList) | Lists |
-| [https://www.boomlings.com/database/deleteGJEditorSound.php](/endpoints/editorsfx/deleteGJEditorSound) | Editor SFX |
+| [https://www.boomlings.com/database/deleteGJEditorSound.php](/endpoints/editorsfx/deleteGJEditorSound) | Sound Packs |
 
 :::
 

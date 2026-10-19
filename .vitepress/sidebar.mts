@@ -83,7 +83,7 @@ export default [
         "collapsed": true
       },
       {
-        "text": "Editor SFX",
+        "text": "Sound Packs",
         "items": [
           {
             "text": "deleteGJEditorSound.php",
@@ -620,7 +620,7 @@ export default [
             "link": "/resources/server/comment"
           },
           {
-            "text": "Editor SFX Pack Object",
+            "text": "Sound Pack Object",
             "link": "/resources/server/editorsfx"
           },
           {
