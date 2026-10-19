@@ -41,7 +41,7 @@ aside: true
 - [`reportGJLevel`](#) was deprecated in favor of [`reportGJContent`](#)
 - `deleteGJFriendRequests20`  [doesn't delete friend requests](#) anymore. They become ignored and can still be accepted later.
 - `getGJFriendRequests20` [supports](#) ignored friend requests
-- The legacy messaging system was superseded by threads. [`getGJMessages20`](@) and [`downloadGJMessage20`](#) are still functional, but [`uploadGJMessage20`](#) was disabled and returns `-1`.
+- The legacy messaging system was superseded by threads. [`getGJMessages20`](#) and [`downloadGJMessage20`](#) are still functional, but [`uploadGJMessage20`](#) was disabled and returns `-1`.
 - `getGJUserList20` supports [new list types](#) for followed and muted accounts. It also now includes user stats in responses.
 - `downloadGJLevel` now [includes](#) death data at the end of the response
 - [New CCGameManager keys](#): `newsLastReadID`, `recentEmotes`, `editorSFXGlobalVolume`, `scrollSensitivity`, `specialPermKey`
