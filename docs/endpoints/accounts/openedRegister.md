@@ -7,8 +7,8 @@ This endpoint is used to obtain a session token for registering an account.
 
 ## Parameters
 
-| Parameter  | Explanation                                         | Required |
-| ---------- | --------------------------------------------------- | -------- |
+| Parameter  | Explanation | Required |
+| ---------- | ----------- | -------- |
 | `secret`   | <ParamDesc name="secret" type="account"/> | Yes      |
 
 ## Response
