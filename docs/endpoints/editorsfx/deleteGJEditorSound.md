@@ -6,15 +6,15 @@ Deletes a sound pack from the server.
 
 | Parameter       | Explanation | Required |
 | --------------- | ----------- | -------- |
-| `accountID`     | <ParamDesc name="accountID"/> | Yes      | <!--a-->
-| `gjp2`          | <ParamDesc name="gjp2"/> | Yes      | <!--a-->
-| `secret`        | <ParamDesc name="secret" type="level"/> | Yes      | <!--a-->
-| `soundID`       | The ID of the pack being deleted | Yes      | <!--a-->
-| `udid`          | <ParamDesc name="udid"/> |          | <!--a-->
-| `uuid`          | <ParamDesc name="uuid"/> |          | <!--a-->
-| `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
-| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
-| `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
+| `accountID`     | <ParamDesc name="accountID"/> | Yes      |
+| `gjp2`          | <ParamDesc name="gjp2"/> | Yes      |
+| `secret`        | <ParamDesc name="secret" type="level"/> | Yes      |
+| `soundID`       | The ID of the pack being deleted | Yes      |
+| `udid`          | <ParamDesc name="udid"/> |          |
+| `uuid`          | <ParamDesc name="uuid"/> |          |
+| `gameVersion`   | <ParamDesc name="gameVersion"/> |          |
+| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          |
+| `dvs`           | <ParamDesc name="dvs"/> |          |
 
 ## Response
 

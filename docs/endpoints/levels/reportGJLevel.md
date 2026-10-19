@@ -9,8 +9,8 @@ Reports a level
 
 | Parameter | Explanation | Required |
 | --------- | ----------- | -------- |
-| `secret`  | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
-| `levelID` | The ID of the level being reported |          | <!--a-->
+| `secret`  | <ParamDesc name="secret" type="common"/> | Yes      |
+| `levelID` | The ID of the level being reported |          |
 
 ## Response
 

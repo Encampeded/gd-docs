@@ -6,15 +6,15 @@ Downloads a sound pack.
 
 | Parameter       | Explanation | Required |
 | --------------- | ----------- | -------- |
-| `soundID`       | The ID of the sound pack you want to download | Yes      | <!--a-->
-| `secret`        | <ParamDesc name="secret" type="common"/> | Yes      | <!--a-->
-| `accountID`     | <ParamDesc name="accountID"/> |       | <!--a-->
-| `udid`          | <ParamDesc name="udid"/> |      | <!--a-->
-| `uuid`          | <ParamDesc name="uuid"/> |       | <!--a-->
-| `gjp2`          | <ParamDesc name="gjp2"/> |      | <!--a-->
-| `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
-| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
-| `dvs`           | <ParamDesc name="dvs"/> |          | <!--a-->
+| `soundID`       | The ID of the sound pack you want to download | Yes      |
+| `secret`        | <ParamDesc name="secret" type="common"/> | Yes      |
+| `accountID`     | <ParamDesc name="accountID"/> |       |
+| `udid`          | <ParamDesc name="udid"/> |      |
+| `uuid`          | <ParamDesc name="uuid"/> |       |
+| `gjp2`          | <ParamDesc name="gjp2"/> |      |
+| `gameVersion`   | <ParamDesc name="gameVersion"/> |          |
+| `binaryVersion` | <ParamDesc name="binaryVersion"/> |          |
+| `dvs`           | <ParamDesc name="dvs"/> |          |
 
 ## Response
 

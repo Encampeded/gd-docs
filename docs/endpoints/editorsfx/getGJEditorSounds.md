@@ -6,17 +6,17 @@ Searches sound packs by name and/or type.
 
 | Parameter       | Description | Required |
 | --------------- | ----------- | -------- |
-| `secret`        | <ParamDesc name="secret" type="common"/> | Yes | <!--a-->
-| `gameVersion`   | <ParamDesc name="gameVersion"/> |  | <!--a-->
-| `binaryVersion` | <ParamDesc name="binaryVersion"/> |  | <!--a-->
-| `accountID`     | <ParamDesc name="accountID"/> |  | <!--a-->
-| `gjp2`          | <ParamDesc name="gjp2"/> |  | <!--a-->
-| `str`           | Search query, user ID or level list depending on `type` | Only on [types 0 and 5](#type) | <!--a-->
-| `type`          | Search type, [see values](#type). Defaults to most liked |  | <!--a-->
-| `page`          | Which page to request, defaults to 0 |  | <!--a-->
-| `star`          | Whether to only return featured sound packs, does not seem to be used in game |  | <!--o-->
-| `total`         | Does not seem to affect anything, sent as 0 |  | <!--o-->
-| `count`         | Does not seem to affect anything, sent as 10 |  | <!--o-->
+| `secret`        | <ParamDesc name="secret" type="common"/> | Yes |
+| `gameVersion`   | <ParamDesc name="gameVersion"/> |  |
+| `binaryVersion` | <ParamDesc name="binaryVersion"/> |  |
+| `accountID`     | <ParamDesc name="accountID"/> |  |
+| `gjp2`          | <ParamDesc name="gjp2"/> |  |
+| `str`           | Search query, user ID or level list depending on `type` | Only on [types 0 and 5](#type) |
+| `type`          | Search type, [see values](#type). Defaults to most liked |  |
+| `page`          | Which page to request, defaults to 0 |  |
+| `star`          | Whether to only return featured sound packs, does not seem to be used in game |  |
+| `total`         | Does not seem to affect anything, sent as 0 |  |
+| `count`         | Does not seem to affect anything, sent as 10 |  |
 
 ::: details `type` {#type open}
 
