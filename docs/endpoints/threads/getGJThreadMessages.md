@@ -13,6 +13,7 @@ Gets the messages in a thread
 | `beforeID`      | All fetched messages will be older than this message ID | | <!--a-->
 | `afterID`       | All fetched messages will be newer than this message ID | | <!--a-->
 | `aroundID`      | All fetched messages will be around this message ID. Used when jumping to a message from search | | <!--a-->
+| `date`          |
 | `mv`            | Unknown. Only sent when refreshing the thread | | <!--a-->
 | `gameVersion`   | <ParamDesc name="gameVersion"/> |          | <!--a-->
 | `binaryVersion` | <ParamDesc name="binaryVersion"/> |          | <!--a-->
