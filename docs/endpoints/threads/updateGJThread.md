@@ -1,6 +1,6 @@
 # updateGJThread.php
 
-Perform a wide variety of actions on threads  
+Performs a wide variety of actions on threads.
 
 ## Parameters
 
@@ -44,4 +44,4 @@ Perform a wide variety of actions on threads
 
 ## Response
 
-1 if successful, -1 otherwise
+1 if successful, -1 otherwise.

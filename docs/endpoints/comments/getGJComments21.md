@@ -1,6 +1,6 @@
 # getGJComments21.php
 
-Gets a level or list's comments.
+Gets comments of a level, list or sound pack.
 
 ## Parameters
 
@@ -23,7 +23,7 @@ Gets a level or list's comments.
 
 ## Response
 
-Returns a list of [comment objects](/resources/server/comment.md) separated by a pipe `|`. If the `binaryVersion` parameter is lower than 49 or isn't provided, all non-ASCII characters in the comment's message are replaced with ? symbols - this is likely to maintain compatibility with pre-2.209 clients, which can't parse them.
+Returns a list of [comment objects](/resources/server/comment.md) separated by a pipe `|`. If the `binaryVersion` parameter is lower than 49 or isn't provided, all non-ASCII characters in the comment's message are replaced with `?` symbols - this is likely to maintain compatibility with pre-2.209 clients, which can't parse them.
 
 ## Example
 

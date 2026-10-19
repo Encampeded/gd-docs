@@ -106,7 +106,7 @@ There are 5 endpoints which use the `Account Secret`. The Account Secret was cre
 
 ### Level Secret
 
-There are only 3 endpoints that use the `Level Secret`. The Level Secret is used to handle level deletions. Below you can find the 3 endpoints which use the Level Secret
+There are only 3 endpoints that use the `Level Secret`. The Level Secret is used to handle level deletions. Below you can find the 3 endpoints which use the Level Secret.
 
 ::: details Endpoints
 

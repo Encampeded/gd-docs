@@ -2,7 +2,7 @@
 
 A sound pack is a list of sound effects to be played for each action in the editor.
 
-A typical sound pack server response is structured with a `key:value:key:value` pairing and is then split with a `|`
+A typical sound pack server response is structured with a `key:value:key:value` pairing and is then split with a `|`.
 
 #### Sound Pack Example Response
 ```md
@@ -10,7 +10,7 @@ A typical sound pack server response is structured with a `key:value:key:value` 
 ```
 
 Each `key` is tied to a component within the client and the `value` sets data for the specific component.
-A list of all known keys can be found in the table below
+A list of all known keys can be found in the table below.
 
 #### Sound Pack Structure
 

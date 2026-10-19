@@ -32,7 +32,7 @@ Reports a level, list, comment, profile post, user, friend request, message, thr
 
 ## Response
 
-1 if all valid parameters are passed, -1 otherwise
+1 if all valid parameters are passed, -1 otherwise.
 
 ## Example
 

@@ -1,6 +1,6 @@
 # getGJFriendRequests20.php
-  
-This endpoint fetches friend requests received by other users
+
+Gets friend requests received from other users.
 
 ## Parameters
 
@@ -20,9 +20,9 @@ This endpoint fetches friend requests received by other users
 
 ## Response
 
-The response for this endpoint is a `key:value` format with `|` being the seperator for each object. A `#` is used to seperate the metadata
+The response for this endpoint is a `key:value` format with `|` being the seperator for each object. A `#` is used to seperate the metadata.
 
-The metadata is split up into 3 segments: `total requests : page number : total requests per page`
+The metadata is split up into 3 segments: `total requests : page number : total requests per page`.
 
 **Below is a raw response for a single friend request**
 

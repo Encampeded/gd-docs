@@ -36,7 +36,7 @@ Searches sound packs by name and/or type.
 
 ## Response
 
-A successful sound pack search will return the data in the format
+A successful sound pack search will return the data in the format:
 
 ```
 pack#creators#page info#hash
@@ -53,7 +53,7 @@ where:
 - `hash` is an integrity hash, see [Hashes](#)
 <!-- should the hash be explained here or on its own page like how the old docs had a page for CHK -->
 
-If the request is not successful, it will return `-1`
+If the request is not successful, it will return `-1`.
 
 
 <!-- tabs:start -->

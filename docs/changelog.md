@@ -35,7 +35,7 @@ aside: true
     - `openedRegister` which returns an `rsession` token used with `registerGJAccount`
     - 22 moderation endpoints: `adminGetUserHistory`, `adminGetReportedContent`, `adminClearReportedContent`, `adminGetReportQueue`, `adminGetAbuseInfo`, `adminGetAccountReview`, `adminThreadAction`, `adminDeleteUserComments`, `adminCommentBan`, `adminUploadBan`, `adminMessageBan`, `adminFreezeAccount`, `adminTrendingBan`, `adminNameLock`, `adminCommentUnban`, `adminUploadUnban`, `adminCloseCase`, `adminMessageUnban`, `adminUnfreezeAccount`, `adminTrendingUnban`, `adminNameUnlock`, `deleteGJComments`
 - `registerGJAccount` now requires the new [`rsession`](#) from `openedRegister`
-- [`updateGJAccSettings20`](#) now allows to disable friend request messages and introduces a new privacy option for threads, along with an unknown `gO` parameter.
+- [`updateGJAccSettings20`](#) now allows to disable friend request messages and introduces a new privacy option for threads, along with an unknown `gO` parameter
 - `getGJComments21` [supports](#) sound packs
 - [Four new `type`s](#) in `getGJLevels21`: hyped 🔥 and timely histories without the current one. There's also an unknown [`hypeSecret`](#) param with a hardcoded value.
 - [`reportGJLevel`](#) was deprecated in favor of [`reportGJContent`](#)

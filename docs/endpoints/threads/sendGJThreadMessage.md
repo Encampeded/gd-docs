@@ -1,6 +1,6 @@
 # sendGJThreadMessage.php
 
-Sends a message in an existing thread or starts a new thread. This endpoint has a cooldown of 20 messages per minute
+Sends a message in an existing thread or starts a new thread. This endpoint has a cooldown of 20 messages per minute.
 
 ## Parameters
 
@@ -30,7 +30,7 @@ Returns the thread ID and message ID separated by a colon `:` if the message was
 
 If you are not in the thread, returns a [Custom Error Message](/topics/custom_error) with the title "Group Chat" and body "You are no longer in this group chat."
 
-If the thread does not exist or there's another issue with your request, returns `-1`
+If the thread does not exist or there's another issue with your request, returns `-1`.
 
 ## Example
 

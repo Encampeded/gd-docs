@@ -1,7 +1,7 @@
 # uploadGJMessage20.php
 
 > [!WARNING]
-> This endpoint is deprecated and seems to be always returning `-1` now
+> This endpoint is deprecated and seems to be always returning `-1` now.
 
 Sends a message to a user
 
@@ -23,7 +23,7 @@ Sends a message to a user
 
 ## Response
 
-1 if the message was sent, -1 if a problem occurred, or if the receiver has messages disabled
+1 if the message was sent, -1 if a problem occurred, or if the receiver has messages disabled.
 
 ## Example
 

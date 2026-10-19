@@ -1,6 +1,6 @@
 # getGJFollowing.php
 
-This endpoint is used to fetch which accounts are being followed
+Gets followed accounts.
 
 ## Parameters
 
@@ -18,7 +18,7 @@ This endpoint is used to fetch which accounts are being followed
 
 ## Response
 
-All the account IDs this account follows, separated by commas
+All the account IDs this account follows, separated by commas.
 
 ```plain
 761691,4569963,8927557,5327860

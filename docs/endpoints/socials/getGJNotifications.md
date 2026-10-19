@@ -34,7 +34,7 @@ The `mask` parameter represents which notification types are enabled/disabled. A
 
 ## Response
 
-The [Notification Objects](/resources/server/notification.md), separated by pipes `|`. After that, a `#` separates the page info, which is in the format `total:offset:amount` where total is the total number of notifications for the query, offset is the offset from which the current page starts and amount is the number of notifications per page
+The [Notification Objects](/resources/server/notification.md), separated by pipes `|`. After that, a `#` separates the page info, which is in the format `total:offset:amount` where total is the total number of notifications for the query, offset is the offset from which the current page starts and amount is the number of notifications per page.
 
 ## Example Response
 

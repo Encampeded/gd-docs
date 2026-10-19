@@ -1,6 +1,6 @@
 # getGJThreadMessages.php
 
-Gets the messages in a thread
+Gets the messages in a thread.
 
 ## Parameters
 

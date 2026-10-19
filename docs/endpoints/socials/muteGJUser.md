@@ -1,6 +1,6 @@
 # muteGJUser.php
 
-Mutes or unmutes a user from sending you notifications
+Mutes or unmutes a user from sending you notifications.
 
 ## Parameters
 
@@ -21,4 +21,4 @@ Mutes or unmutes a user from sending you notifications
 
 Always 1 if the correct values are provided, even if the account does not exist.
 
-However, if you mute a nonexistent account ID, your muted account list will break, displaying "Something went wrong"
+However, if you mute a nonexistent account ID, your muted account list will break, displaying "Something went wrong".
