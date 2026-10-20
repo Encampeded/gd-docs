@@ -38,39 +38,39 @@ This endpoint is used to search levels by name and or filter
 
 ::: details `type` {#type open}
 
-| Type | Description                                                                                                                     |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------- |
-| `0`  | Search query (used when opening the original level)                                                                             |
-| `1`  | Most downloaded                                                                                                                 |
-| `2`  | Most liked                                                                                                                      |
-| `3`  | Trending                                                                                                                        |
-| `4`  | Recent                                                                                                                          |
-| `5`  | User's levels, uses `str` as the **user ID**                                                                                    |
-| `6`  | Featured                                                                                                                        |
-| `7`  | Magic                                                                                                                           |
-| `8`  | Moderator sent levels                                                                                                           |
+| Type | Description |
+| ---- | ----------- |
+| `0`  | Search query (used when opening the original level) |
+| `1`  | Most downloaded |
+| `2`  | Most liked |
+| `3`  | Trending |
+| `4`  | Recent |
+| `5`  | User's levels, uses `str` as the **user ID** |
+| `6`  | Featured |
+| `7`  | Magic |
+| `8`  | Moderator sent levels |
 | `10` | List of levels (not to be confused with type 25, which is for in-game lists), uses `str` as a comma separated list of level IDs |
-| `11` | Awarded                                                                                                                         |
-| `12` | Followed (see `followed` parameter)                                                                                             |
-| `13` | Friends (login required)                                                                                                        |
-| `15` | Most liked in GD World                                                                                                          |
-| `16` | Hall of fame                                                                                                                    |
-| `17` | Featured in GD World                                                                                                            |
-| `18` | Unknown (always empty, perhaps robtop only?)                                                                                    |
-| `19` | Unknown (same as type 10 but this type has pagination and no star rate filter)                                                  |
-| `21` | Daily history                                                                                                                   |
-| `22` | Weekly history                                                                                                                  |
-| `23` | Event history                                                                                                                   |
-| `24` | Reported levels (Elder Moderator only)                                                                                          |
-| `25` | Level list, uses `str` as the list ID                                                                                           |
-| `26` | Local level list (same as type 19 but can return up to 100 levels)                                                              |
-| `27` | Sent                                                                                                                            |
-| `28` | GD Lite weekly levels                                                                                                           |
-| `29` | GD Lite bonus levels (platformer)                                                                                               |
-| `31` | Hyped                                                                                                                           |
-| `32` | Daily history (without the current daily)                                                                                       |
-| `33` | Weekly history (without the current weekly)                                                                                     |
-| `34` | Event history (without the current event level)                                                                                 |
+| `11` | Awarded |
+| `12` | Followed (see `followed` parameter) |
+| `13` | Friends (login required) |
+| `15` | Most liked in GD World |
+| `16` | Hall of fame |
+| `17` | Featured in GD World |
+| `18` | Unknown (always empty, perhaps robtop only?) |
+| `19` | Unknown (same as type 10 but this type has pagination and no star rate filter) |
+| `21` | Daily history |
+| `22` | Weekly history |
+| `23` | Event history |
+| `24` | Reported levels (Elder Moderator only) |
+| `25` | Level list, uses `str` as the list ID |
+| `26` | Local level list (same as type 19 but can return up to 100 levels) |
+| `27` | Sent |
+| `28` | GD Lite weekly levels |
+| `29` | GD Lite bonus levels (platformer) |
+| `31` | Hyped |
+| `32` | Daily history (without the current daily) |
+| `33` | Weekly history (without the current weekly) |
+| `34` | Event history (without the current event level) |
 
 :::
 
