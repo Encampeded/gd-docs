@@ -62,20 +62,18 @@ In the getGJThreadMessages.php endpoint, a different set of values is returned. 
 | 5     | members   | **Integer** | Amount of members in the thread
 | 6     | inviteAge | **String** | How long ago you were invited (e.g. "1 hour")
 | 7     | lastMessage   | **String** | How long ago the last message in the thread was sent (e.g. "13 hours")
-| 8     | unknown		   | **String** | Seems to always be empty
+| 8     | message		  | **String** | The pending DM invite message
 | 9     | description | **String** | The description of the thread encoded in [Base64](/topics/encryption/base64.md)
 | 10    | threadType	   | **Bool** | 0 - group thread, 1 - DM thread
-| 11    | muted		   | **Bool** | Whether you have muted the thread or not
-| 12    | unknown		   | **Integer** | Seems to always be 0
-| 13    | ignoredInvite		 | **Bool** | Whether you have ignored this invite
-| 14  | icon  	 | **Integer** | The icon ID of the user who invited you
-| 15  | color1  	 | **Integer** | The primary color of the user who invited you
-| 16  | color2  	 | **Integer** | The secondary color of the user who invited you
-| 17  | color3  	 | **Integer** | The glow color of the user who invited you
-| 18  | iconType 	 | **Integer** | The icon type of the user who invited you
-| 19  | special 	 | **Integer** | The special value of the user who invited you
-| 20  | emoteIcon 	 | **String** | The emote icon used for this group thread
-| 21  | inviteTimestamp 	 | **Integer** | The UNIX timestamp of when you were invited
+| 11    | ignoredInvite		 | **Bool** | Whether you have ignored this invite
+| 12  | icon  	 | **Integer** | The icon ID of the user who invited you
+| 13  | color1  	 | **Integer** | The primary color of the user who invited you
+| 14  | color2  	 | **Integer** | The secondary color of the user who invited you
+| 15  | color3  	 | **Integer** | The glow color of the user who invited you
+| 16  | iconType 	 | **Integer** | The icon type of the user who invited you
+| 17  | special 	 | **Integer** | The special value of the user who invited you
+| 18  | emoteIcon 	 | **String** | The emote icon used for this group thread
+| 19  | inviteTimestamp 	 | **Integer** | The UNIX timestamp of when you were invited
 
 ### Thread Metadata
 
