@@ -13,7 +13,7 @@ aside: true
 
 - `binaryVersion`: `51`
 - Level key [`54`](/resources/server/level#:~:text=54,SFX%2C%20in%20bytes), which was only present in the game's code, is now sent by the server
-- New level keys [`62`, `63` and `65`](#) with exact upload and update times and timely ID
+- New level keys [`58`, `62`, `63` and `65`](#) with exact upload and update times and timely ID. Key `58` is a new unused key.
 - Comments now have a Unix timestamp, show the friend status ([keys `13`-`15`](#)) and may belong to sound packs
 - New user keys [62-70](#) related to the follow system, notifications, new privacy settings and a Unix timestamp key
 - New user object formats for [invited and former thread members](#)
