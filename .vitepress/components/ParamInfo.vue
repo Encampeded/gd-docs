@@ -4,8 +4,8 @@ import './param-info.css';
 import config from './param-info.mts';
 import { paramInfoRegistryKey } from './param-group.mts';
 
-type Requirement = 'always' | 'cond' | 'no'
-type Sending = 'always' | 'platform' | 'cond'
+type Requirement = 'always' | 'cond' | 'no';
+type Sending = 'always' | 'platform' | 'cond';
 
 const props = defineProps<{
   req: Requirement
@@ -20,7 +20,7 @@ const markers = computed(() => {
     symbol: string
     description: string
     kind: string
-  }[] = []
+  }[] = [];
 
   if (props.req !== 'no') {
     result.push({
@@ -33,7 +33,6 @@ const markers = computed(() => {
     });
   }
 
-  //
   if (props.req !== 'always') {
     if (props.sent === 'always') {
       result.push({
