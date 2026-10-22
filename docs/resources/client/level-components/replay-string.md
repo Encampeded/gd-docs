@@ -6,7 +6,7 @@ aside: true
 
 The replay string is a feature first added in 1.6, removed in 2.200 and re-added in 2.208 as a new format. This page documents the new 2.208 format.
 
-Currently, it is only used for local levels, with it being stored on the client in keys `k34`, `k119` and `k120` and sent to the servers via uploadGJLevel21.php's `lrs` parameter.
+Currently, it is only used for local levels, with it being stored on the client in keys `k34`, `k119` and `k120` and sent to the servers via [uploadGJLevel21.php](/endpoints/levels/uploadGJLevel21)'s `lrs` parameter.
 
 It is separated into 2 sections with a `#` character: the inputs and the metadata
 

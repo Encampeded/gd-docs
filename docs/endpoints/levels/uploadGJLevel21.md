@@ -38,7 +38,7 @@ Uploads a created level to the servers.
 | `levelInfo` | pre-2.208 `lrs` |
 | `binaryVersion`<ParamInfo req="no" sent="always"/> | <ParamDesc name="binaryVersion"/> |
 | `ts`<ParamInfo req="no" sent="always"/> | The amount of 240 TPS steps the verification attempt took |
-| `lrs`<ParamInfo req="no" sent="always"/> | The replay string of the verification attempt, for leaderboard mods. TODO: document format |
+| `lrs`<ParamInfo req="no" sent="always"/> | The [replay string](/resources/client/level-components/replay-string) of the verification attempt, for leaderboard moderators |
 | `udid`<ParamInfo req="no" sent="always"/> | <ParamDesc name="udid"/> |
 | `uuid`<ParamInfo req="no" sent="always"/> | <ParamDesc name="uuid"/> |
 | `dvs`<ParamInfo req="no" sent="always"/> | <ParamDesc name="dvs"/> |
