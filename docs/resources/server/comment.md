@@ -49,6 +49,7 @@ Each `key` is tied to a component within the client and the `value` sets data fo
 | 10* | percent             | **Integer** | The percent the author put in their comment |
 | 11* | modBadge            | **Integer** | The mod badge of the author; only present if the author is a moderator. 1 = Normal Mod, 2 = Elder Mod |
 | 12* | moderatorChatColor  | **String**  | Comma separated list of the RGB values of the author's chat color; only present if author is a moderator |
+| 13* | friend              | **Bool**    | If the comment author is your friend; only present if true |
 | 14* | commentType         | **Integer** | Which part of the game the comment was left on. 6 if the comment is left on a sound pack, otherwise not included at all |
 | 15  | timestamp           | **Integer** | UNIX timestamp of when the comment was uploaded (in seconds) |
 
