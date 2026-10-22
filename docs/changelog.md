@@ -14,7 +14,7 @@ aside: true
 - `binaryVersion`: `51`
 - Level key [`54`](/resources/server/level#:~:text=54,SFX%2C%20in%20bytes), which was only present in the game's code, is now sent by the server
 - New level keys [`62` and `63`](/resources/server/level#:~:text=62,was%20last%20updated) with exact upload and update times
-- Comments now have a Unix timestamp, show the friend status and may belong to sound packs
+- Comments now have a Unix timestamp, show the friend status ([keys `13`-`15`](#)) and may belong to sound packs
 - New user keys [62-70](#) related to the follow system, notifications, new privacy settings and a Unix timestamp key
 - New user object formats for [invited and former thread members](#)
 - [Account Management](/topics/account_management#changeemail-php) supports changing the primary email and managing the recovery email
