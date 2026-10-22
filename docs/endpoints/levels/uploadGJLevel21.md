@@ -29,7 +29,7 @@ Uploads a created level to the servers.
 | `unlisted`<ParamInfo req="no" sent="always"/> | Set to `2` if the level should be unlisted, `1` if it should be unlisted and only viewable by friends, `0` if it should be listed |
 | `ldm`<ParamInfo req="always"/> | Whether the level uses high detail objects |
 | `levelString`<ParamInfo req="always"/> | The actual level data. Must be gzip compressed and then converted to [URL-safe base64](/topics/encryption/base64.md) |
-| `seed2`<ParamInfo req="always"/> | A mandatory [chk value](/topics/encryption/chk.md) generated from the first 50 characters of the **_compressed_** level data |
+| `seed2`<ParamInfo req="always"/> | See the [upload level chk](/topics/encryption/chk#upload-level) |
 | `secret`<ParamInfo req="always"/> | <ParamDesc name="secret" type="common"/> |
 | `wt`<ParamInfo req="no" sent="always"/> | The amount of time spent in the editor of a level (local copy) |
 | `wt2`<ParamInfo req="no" sent="always"/> | The amount of time spent in the editor of a level (previous copies) |

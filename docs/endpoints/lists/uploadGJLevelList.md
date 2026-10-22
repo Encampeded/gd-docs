@@ -19,7 +19,7 @@ Uploads a created list to the servers.
 | `listVersion`<ParamInfo req="always"/> | Always `0` |
 | `original`<ParamInfo req="always"/> | The ID of the original list if the list was copied, otherwise `0` |
 | `unlisted`<ParamInfo req="always"/> | Set to `2` if the list should be unlisted, and to `1` if the list should be unlisted and only viewable by friends |
-| `seed`<ParamInfo req="always"/> | A mandatory [chk value](/topics/encryption/chk.md) generated from the first 50 characters of the listLevels parameter, followed by the accountID |
+| `seed`<ParamInfo req="always"/> | See the [upload list chk](/topics/encryption/chk#upload-list) |
 | `seed2`<ParamInfo req="always"/> | 5 randomly generated characters from `[A-Za-z0-9]` |
 | `secret`<ParamInfo req="always"/> | <ParamDesc name="secret" type="common"/> |
 | `binaryVersion`<ParamInfo req="no" sent="always"/> | <ParamDesc name="binaryVersion"/> |
