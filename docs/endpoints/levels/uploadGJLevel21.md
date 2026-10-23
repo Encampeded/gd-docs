@@ -38,7 +38,12 @@ Uploads a created level to the servers.
 | `levelInfo` | pre-2.208 `lrs` |
 | `binaryVersion`<ParamInfo req="no" sent="always"/> | <ParamDesc name="binaryVersion"/> |
 | `ts`<ParamInfo req="no" sent="always"/> | The amount of 240 TPS steps the verification attempt took |
+| `notify`<ParamInfo req="no" sent="always"/> | Which users to notify about the upload: `0` - none, `1` - friends, `2` - followers, `3` - friends and followers |
+| `ct`<ParamInfo req="no" sent="always"/> | The current Unix timestamp in seconds |
+| `bs`<ParamInfo req="no" sent="always"/> | The [Build Stats String](#) |
 | `lrs`<ParamInfo req="no" sent="always"/> | The [replay string](/resources/client/level-components/replay-string) of the verification attempt, for leaderboard moderators |
+| `songIDs`<ParamInfo req="no" sent="cond"/> | The level's song ID list, as stored in client key [`k104`](/resources/client/level#:~:text=k104,by%20%2C) <ParamCond sent="cond">not empty</ParamCond> |
+| `sfxIDs`<ParamInfo req="no" sent="cond"/> | The level's SFX ID list, as stored in client key [`k105`](/resources/client/level#:~:text=k105,by%20%2C) <ParamCond sent="cond">not empty</ParamCond> |
 | `udid`<ParamInfo req="no" sent="always"/> | <ParamDesc name="udid"/> |
 | `uuid`<ParamInfo req="no" sent="always"/> | <ParamDesc name="uuid"/> |
 | `dvs`<ParamInfo req="no" sent="always"/> | <ParamDesc name="dvs"/> |
