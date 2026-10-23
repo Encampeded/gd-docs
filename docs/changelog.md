@@ -16,23 +16,23 @@ aside: true
 - New level keys [`58`, `62`, `63` and `65`](#) with exact upload and update times and timely ID. Key `58` is a new unused key.
 - Comments now have a Unix timestamp, show the friend status ([keys `13`-`15`](#)) and may belong to sound packs
 - New user keys [62-70](#) related to the follow system, notifications, new privacy settings and a Unix timestamp key
-- New user object formats for [invited and former thread members](#)
+- New user object formats for [invited and former thread members](/resources/server/user#thread-invite-user-object)
 - [Account Management](/topics/account_management#changeemail-php) supports changing the primary email and managing the recovery email
-- Error responses now include the title and body of an error message popup
+- [Error responses](/topics/custom_error) now include the title and body of an error message popup
 - [In-game news](#) have been added
 - 52 new endpoints:
-    - Editor sound packs: `getGJEditorSounds`, `uploadGJEditorSound`, `downloadGJEditorSound`, `deleteGJEditorSound`, `updateGJSoundDesc`. Sound packs reuse the level list structure with a few new keys.
+    - Editor sound packs: [`getGJEditorSounds`](/endpoints/editorsfx/getGJEditorSounds), [`uploadGJEditorSound`](/endpoints/editorsfx/uploadGJEditorSound), [`downloadGJEditorSound`](/endpoints/editorsfx/downloadGJEditorSound), [`deleteGJEditorSound`](/endpoints/editorsfx/deleteGJEditorSound), `updateGJSoundDesc`. Sound packs reuse the level list structure with a few new keys.
     - Custom platformer controls: `uploadGJLevelControls`, `getGJLevelControls`, `deleteGJLevelControls`
     - Death markers and death stats: `getGJDeathData`, `uploadGJDeathData`
-    - Thread system (group chats): `getGJThreads`, `getGJThreadMessages`, `getGJThreadMembers`, `getGJThreadInvites`, `sendGJThreadMessage`, `updateGJThread`, `searchGJThreadMessages`
-    - Notification system: `claimGJNotificationReward`, `getGJNotifications`, `muteGJUser`
-    - `reportGJContent`, a new content-reporting system covering levels, lists, sound packs, users, threads, comments, messages and friend requests
-    - Server-side follow system: `followGJUser`, `unfollowGJUser`, `getGJFollowing`, `syncGJFollowing`
-    - Song usage statistics: `getGJSongUsage`
+    - Thread system (group chats): [`getGJThreads`](/endpoints/threads/getGJThreads), [`getGJThreadMessages`](/endpoints/threads/getGJThreadMessages), [`getGJThreadMembers`](/endpoints/threads/getGJThreadMembers), [`getGJThreadInvites`](/endpoints/threads/getGJThreadInvites), [`sendGJThreadMessage`](/endpoints/threads/sendGJThreadMessage), [`updateGJThread`](/endpoints/threads/updateGJThread), [`searchGJThreadMessages`](/endpoints/threads/searchGJThreadMessages)
+    - Notification system: [`getGJNotifications`](/endpoints/socials/getGJNotifications), `claimGJNotificationReward`, [`muteGJUser`](/endpoints/socials/muteGJUser)
+    - [`reportGJContent`](/endpoints/misc/reportGJContent), a new content-reporting system covering levels, lists, sound packs, users, threads, comments, messages and friend requests
+    - Server-side follow system: [`followGJUser`](/endpoints/socials/followGJUser), [`unfollowGJUser`](/endpoints/socials/unfollowGJUser), [`getGJFollowing`](/endpoints/socials/getGJFollowing), `syncGJFollowing`
+    - Song usage statistics: [`getGJSongUsage`](/endpoints/songs/getGJSongUsage)
     - Global user search in the submenus of your user profile: `getGJUserSearch`
     - `getGJAudioFilesize` for retrieving the total size of audio assets in the editor
     - `getGJContentStatus`
-    - `openedRegister` which returns an `rsession` token used with `registerGJAccount`
+    - [`openedRegister`](/endpoints/accounts/openedRegister) which returns an `rsession` token used with [`registerGJAccount`](/endpoints/accounts/registerGJAccount)
     - 22 moderation endpoints: `adminGetUserHistory`, `adminGetReportedContent`, `adminClearReportedContent`, `adminGetReportQueue`, `adminGetAbuseInfo`, `adminGetAccountReview`, `adminThreadAction`, `adminDeleteUserComments`, `adminCommentBan`, `adminUploadBan`, `adminMessageBan`, `adminFreezeAccount`, `adminTrendingBan`, `adminNameLock`, `adminCommentUnban`, `adminUploadUnban`, `adminCloseCase`, `adminMessageUnban`, `adminUnfreezeAccount`, `adminTrendingUnban`, `adminNameUnlock`, `deleteGJComments`
 - `registerGJAccount` now requires the new [`rsession`](#) from `openedRegister`
 - [`updateGJAccSettings20`](#) now allows to disable friend request messages and introduces a new privacy option for threads, along with an unknown `gO` parameter
