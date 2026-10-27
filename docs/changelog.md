@@ -49,7 +49,7 @@ aside: true
 - CCGamemanager GLM now [tracks](#) timely levels for both the user and the server
 - 30(?) new [game variables](#)
 - New [`gdlvl`](#) format for transferring local levels
-- new song keys `17` and `18`, being a songURL and artistURLs respectively
+- new song keys `17` and `18` providing song and artist links
 
 ## 2.2082
 
